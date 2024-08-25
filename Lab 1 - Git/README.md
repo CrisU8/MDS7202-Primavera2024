@@ -1,4 +1,4 @@
 Por hacer:
-- [ ] Añadir nombres al notebook
-- [ ] Añadir presentación Joaquin al notebook
-- [ ] Revisión respuestas
+- [X] Añadir nombres al notebook
+- [X] Añadir presentación Joaquin al notebook
+- [X] Revisión respuestas

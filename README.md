@@ -13,5 +13,11 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Reconocer y solucionar problemas entre ramas
   - Subir cambios a un repositorio
 
+## [Laboratorio 2](./Lab%202%20-%20OOP/)
 
+- `Objetivos`:
+  - Aplicar los paradigmas y buenas prácticas de programación vistas hasta este momento.
+  - Comprender y aprovechar las ventajas que nos ofrece la liberia `numpy` con respecto a trabajar en Python 'puro'.
+  - Visualizar aplicaciones de filtros de imágenes sin el uso de librerías.
+  - Verificar que el uso indiscriminado de `for` puede afectar en la eficiencia en al procesar datos masivos.
 
