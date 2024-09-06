@@ -21,3 +21,8 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Visualizar aplicaciones de filtros de imágenes sin el uso de librerías.
   - Verificar que el uso indiscriminado de `for` puede afectar en la eficiencia en al procesar datos masivos.
 
+## [Laboratorio 3](./Lab%203%20-%20Pandas/)
+
+- `Objetivos`:
+  - Entender, aplicar y aprovechar las ventajas que nos ofrece la libreria `pandas` para manejar datos tabulares.
+  - Aprender a utilizar la documentación de pandas (y en general, de cualquier librería de python) como también a buscar soluciones en la web.
