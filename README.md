@@ -26,3 +26,9 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
 - `Objetivos`:
   - Entender, aplicar y aprovechar las ventajas que nos ofrece la libreria `pandas` para manejar datos tabulares.
   - Aprender a utilizar la documentación de pandas (y en general, de cualquier librería de python) como también a buscar soluciones en la web.
+
+## [Laboratorio 4](./Lab%204%20-%20Pyspark/)
+
+- `Objetivos`:
+  - Entender, aplicar y aprovechar las ventajas que nos ofrece la libreria `pyspark` para manejar datos tabulares de gran volúmen.
+  - Crear gráficos para el desarrollo de Análisis de Datos Exploratorios (EDA).

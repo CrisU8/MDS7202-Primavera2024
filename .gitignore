@@ -4,3 +4,9 @@ videos/
 # Ignorar todos los archivos .txt excepto 171.txt en la carpeta texts
 *.txt
 !texts/171.txt
+
+# Ignorar archivos parquet
+*.parquet
+
+#ignorar Archivos serio¿alizados
+*.pkl
