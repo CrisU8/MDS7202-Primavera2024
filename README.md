@@ -32,3 +32,10 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
 - `Objetivos`:
   - Entender, aplicar y aprovechar las ventajas que nos ofrece la libreria `pyspark` para manejar datos tabulares de gran volúmen.
   - Crear gráficos para el desarrollo de Análisis de Datos Exploratorios (EDA).
+
+## [Laboratorio 5](./Lab%205%20-%20Pipelines/)
+
+- `Objetivos`:
+  - Comprender cómo aplicar pipelines de Scikit-Learn para generar procesos más limpios en Feature Engineering.
+  - Aplicar Pandas para obtener características de un DataFrame.
+  - Aplicar Pipelines y Column Transformers
