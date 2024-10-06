@@ -39,3 +39,9 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Comprender cómo aplicar pipelines de Scikit-Learn para generar procesos más limpios en Feature Engineering.
   - Aplicar Pandas para obtener características de un DataFrame.
   - Aplicar Pipelines y Column Transformers
+
+## [Laboratorio 6](./Lab%206%20-%20Clustering y anomalias/)
+
+- `Objetivos`:
+  - Comprender cómo aplicar pipelines de Scikit-Learn para generar clusters.
+  - Familiarizarse con plotly.
