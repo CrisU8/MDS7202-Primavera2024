@@ -40,7 +40,7 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Aplicar Pandas para obtener características de un DataFrame.
   - Aplicar Pipelines y Column Transformers
 
-## [Laboratorio 6](./Lab%206%20-%20Clustering y anomalias/)
+## [Laboratorio 6](./Lab%206%20-%20Clustering/)
 
 - `Objetivos`:
   - Comprender cómo aplicar pipelines de Scikit-Learn para generar clusters.
