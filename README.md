@@ -46,9 +46,18 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Comprender cómo aplicar pipelines de Scikit-Learn para generar clusters.
   - Familiarizarse con plotly.
 
-## [Laboratorio 7](./Lab%206%20-%20Clasificacion/)
+## [Laboratorio 7](./Lab%207%20-%20Clasificacion/)
 
 - `Objetivos`:
   - Comprender cómo trabajar con problemas de clasificación con clases desbalanceadas.
   - Aplicar los modelos lightgbm y xgboost.
   - Practicar Pipelines
+
+## [Laboratorio 8](./Lab%208%20-%20Forecasting%20y%20sistemas%20de%20recomendación/)
+
+- `Objetivos`:
+  - Comprender qué es una serie de tiempo y su estructura.
+  - Identificar tendencias, estacionalidades e irregularidades.
+  - Armar un modelo predictivo para la serie usando *prophet*.
+  - Conocer y aplicar sistemas de recomendación usando *surprise*.
+  - Entender estructura y conocer casos de estudio.
