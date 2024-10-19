@@ -61,3 +61,13 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Armar un modelo predictivo para la serie usando *prophet*.
   - Conocer y aplicar sistemas de recomendación usando *surprise*.
   - Entender estructura y conocer casos de estudio.
+
+## [Laboratorio 9](./Lab%209%20-%20Optimizacion%20hiperparametros/)
+
+- `Objetivos`:
+  - Optimizar modelos usando `optuna`
+  - Recurrir a técnicas de *prunning*
+  - Forzar el aprendizaje de relaciones entre variables mediante *constraints*
+  - Fijar un pipeline con un modelo base que luego se irá optimizando.
+
+
