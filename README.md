@@ -70,4 +70,10 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Forzar el aprendizaje de relaciones entre variables mediante *constraints*
   - Fijar un pipeline con un modelo base que luego se irá optimizando.
 
+## [Laboratorio 10](./Lab%2010%20-%20OInterpretabilidad/)
+
+- `Objetivos`:
+  - Generar un pipeline de clasificación con `XGBoost`.
+  - Implementar modelos de interpretabilidad para explicar el funcionamiento del modelo de clasificación.
+
 
