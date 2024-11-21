@@ -76,4 +76,10 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Generar un pipeline de clasificación con `XGBoost`.
   - Implementar modelos de interpretabilidad para explicar el funcionamiento del modelo de clasificación.
 
+## [Laboratorio 11](./Lab%2011%20-%20Agentes/)
+
+- `Objetivos`:
+  - Resolución de problemas secuenciales usando Reinforcement Learning
+  - Habilitar un Chatbot para entregar respuestas útiles usando Large Language Models.
+
 
