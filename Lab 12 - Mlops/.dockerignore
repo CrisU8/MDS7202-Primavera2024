@@ -1,0 +1,10 @@
+# Ignorar carpetas y archivos innecesarios
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+mlruns
+plots
+Lab_12.ipynb
+water_potability.csv

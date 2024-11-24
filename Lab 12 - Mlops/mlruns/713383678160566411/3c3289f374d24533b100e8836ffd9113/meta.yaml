@@ -1,0 +1,15 @@
+artifact_uri: file:///home/crisu/Universidad/MDS7202-Primavera2024/Lab%2012%20-%20Mlops/mlruns/713383678160566411/3c3289f374d24533b100e8836ffd9113/artifacts
+end_time: 1732486657484
+entry_point_name: ''
+experiment_id: '713383678160566411'
+lifecycle_stage: active
+run_id: 3c3289f374d24533b100e8836ffd9113
+run_name: XGBoost_Trial_3
+run_uuid: 3c3289f374d24533b100e8836ffd9113
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732486657203
+status: 3
+tags: []
+user_id: crisu
