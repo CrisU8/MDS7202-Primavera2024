@@ -11,3 +11,5 @@ videos/
 #ignorar Archivos serio¿alizados
 *.pkl
 *.pickle
+*.env
+
