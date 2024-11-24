@@ -82,4 +82,8 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   - Resolución de problemas secuenciales usando Reinforcement Learning
   - Habilitar un Chatbot para entregar respuestas útiles usando Large Language Models.
 
+<div align="center">
+  <img src="./Lab%2011%20-%20Agentes/agent_performance.gif" alt="Lunar Lander Agent">
+</div>
+
 
