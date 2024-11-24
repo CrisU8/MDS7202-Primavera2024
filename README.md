@@ -86,4 +86,8 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
   <img src="./Lab%2011%20-%20Agentes/agent_performance.gif" alt="Lunar Lander Agent">
 </div>
 
+## [Laboratorio 12](./Lab%2012%20-%20Mlops/)
 
+- `Objetivos`:
+  - Generar una solución a un problema a partir de ML
+  - Desplegar su solución usando MLFlow, FastAPI y Docker
