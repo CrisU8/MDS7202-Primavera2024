@@ -91,3 +91,17 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
 - `Objetivos`:
   - Generar una solución a un problema a partir de ML
   - Desplegar su solución usando MLFlow, FastAPI y Docker
+
+
+## [Laboratorio 13](./Lab%2013%20-%20Airflow/)
+
+- `Objetivos`:
+  - Reconocer los componentes pricipales de `Airflow` y su funcionamiento.
+  - Poner en práctica la construcción de pipelines de `Airflow`.
+  - Automatizar procesos típicos de un proyecto de ciencia de datos mediante `Airflow` y `Docker`.
+
+<div align="center">
+  <img src="./Lab%2013%20-%20Airflow/dag_lineal.png" alt="dag_lineal">
+    <img src="./Lab%2013%20-%20Airflow/dag_noviembre.png" alt="dag_dynamic">
+
+</div>
