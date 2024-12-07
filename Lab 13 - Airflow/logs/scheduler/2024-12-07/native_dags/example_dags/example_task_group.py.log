@@ -1,0 +1,323 @@
+[2024-12-07T01:52:43.534-0300] {processor.py:186} INFO - Started process (PID=34016) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T01:52:43.534-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T01:52:43.537-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:43.536-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T01:52:43.545-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T01:52:43.718-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:43.718-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_task_group
+[2024-12-07T01:52:43.764-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:43.763-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_task_group
+[2024-12-07T01:52:43.809-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:43.809-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_task_group
+[2024-12-07T01:52:43.899-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:43.899-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2024-12-07T01:52:43.945-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:43.944-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2024-12-07T01:52:44.002-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:44.001-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2024-12-07T01:52:44.048-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:44.048-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2024-12-07T01:52:44.048-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:44.048-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T01:52:44.060-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:44.059-0300] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2024-12-07T01:52:44.061-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:44.061-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T01:52:44.135-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.606 seconds
+[2024-12-07T02:07:46.643-0300] {processor.py:186} INFO - Started process (PID=35366) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:07:46.645-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:07:46.647-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:46.646-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:07:46.654-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:07:46.671-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:46.671-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:07:46.683-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:46.683-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:07:46.744-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.107 seconds
+[2024-12-07T02:11:11.639-0300] {processor.py:186} INFO - Started process (PID=35897) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:11:11.641-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:11:11.642-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:11:11.642-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:11:11.650-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:11:11.667-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:11:11.667-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:11:11.678-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:11:11.678-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:11:11.745-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2024-12-07T02:12:44.712-0300] {processor.py:186} INFO - Started process (PID=36016) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:12:44.716-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:12:44.719-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:44.719-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:12:44.728-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:12:44.746-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:44.746-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:12:44.760-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:44.760-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:12:44.823-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.119 seconds
+[2024-12-07T02:15:32.100-0300] {processor.py:186} INFO - Started process (PID=36369) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:15:32.144-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:15:32.146-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:32.145-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:15:32.156-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:15:32.177-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:32.177-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:15:32.188-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:32.188-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:15:32.250-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.157 seconds
+[2024-12-07T02:17:06.979-0300] {processor.py:186} INFO - Started process (PID=36528) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:17:07.119-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:17:07.121-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:07.121-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:17:07.130-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:17:07.147-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:07.146-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:17:07.158-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:07.158-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:17:07.228-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.256 seconds
+[2024-12-07T02:18:36.395-0300] {processor.py:186} INFO - Started process (PID=36684) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:18:36.474-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:18:36.476-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:36.476-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:18:36.483-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:18:36.498-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:36.498-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:18:36.509-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:36.509-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:18:36.598-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.209 seconds
+[2024-12-07T02:31:08.391-0300] {processor.py:186} INFO - Started process (PID=37977) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:31:08.417-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:31:08.421-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:31:08.421-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:31:08.428-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:31:08.445-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:31:08.445-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:31:08.456-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:31:08.455-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:31:08.523-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.137 seconds
+[2024-12-07T02:33:38.633-0300] {processor.py:186} INFO - Started process (PID=38179) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:33:38.668-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:33:38.671-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:38.670-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:33:38.679-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:33:38.925-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:38.925-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:33:38.935-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:38.935-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:33:38.992-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.365 seconds
+[2024-12-07T02:36:06.712-0300] {processor.py:186} INFO - Started process (PID=38448) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:36:06.730-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:36:06.733-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:06.732-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:36:06.740-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:36:06.755-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:06.755-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:36:06.766-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:06.765-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:36:06.839-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.132 seconds
+[2024-12-07T02:37:09.472-0300] {processor.py:186} INFO - Started process (PID=38618) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:37:09.477-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:37:09.479-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:37:09.478-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:37:09.487-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:37:09.502-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:37:09.501-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:37:09.512-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:37:09.512-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:37:10.093-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.626 seconds
+[2024-12-07T02:38:55.762-0300] {processor.py:186} INFO - Started process (PID=38776) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:38:55.856-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:38:55.858-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:55.858-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:38:55.866-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:38:55.881-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:55.881-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:38:55.893-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:55.892-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:38:56.487-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.730 seconds
+[2024-12-07T02:40:25.851-0300] {processor.py:186} INFO - Started process (PID=38885) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:40:25.852-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:40:25.854-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:25.853-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:40:25.861-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:40:25.876-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:25.876-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:40:25.887-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:25.887-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:40:26.044-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.199 seconds
+[2024-12-07T02:41:39.181-0300] {processor.py:186} INFO - Started process (PID=39009) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:41:39.190-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:41:39.192-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:39.192-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:41:39.200-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:41:39.215-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:39.215-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:41:39.226-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:39.226-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:41:39.376-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.201 seconds
+[2024-12-07T02:44:46.665-0300] {processor.py:186} INFO - Started process (PID=39699) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:44:46.667-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:44:46.669-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:46.668-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:44:46.677-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:44:46.693-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:46.693-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:44:46.704-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:46.704-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:44:46.788-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.128 seconds
+[2024-12-07T02:46:26.927-0300] {processor.py:186} INFO - Started process (PID=39994) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:46:26.929-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:46:26.930-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:26.930-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:46:26.939-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:46:26.955-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:26.955-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:46:26.967-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:26.967-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:46:27.030-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2024-12-07T02:47:49.200-0300] {processor.py:186} INFO - Started process (PID=40262) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:47:49.223-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:47:49.225-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:49.225-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:47:49.234-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:47:49.250-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:49.250-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:47:49.261-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:49.261-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:47:50.211-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 1.016 seconds
+[2024-12-07T02:49:19.846-0300] {processor.py:186} INFO - Started process (PID=40544) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:49:19.864-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:49:19.866-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:19.866-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:49:19.875-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:49:19.891-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:19.891-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:49:19.902-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:19.901-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:49:20.448-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.607 seconds
+[2024-12-07T02:50:07.422-0300] {processor.py:186} INFO - Started process (PID=40792) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:50:07.438-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:50:07.440-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:07.440-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:50:07.449-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:50:07.465-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:07.465-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:50:07.476-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:07.476-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:50:07.536-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.119 seconds
+[2024-12-07T02:51:32.706-0300] {processor.py:186} INFO - Started process (PID=40981) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:51:32.741-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T02:51:32.744-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:51:32.744-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:51:32.758-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T02:51:32.786-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:51:32.786-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:51:32.808-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:51:32.808-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T02:51:33.475-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.781 seconds
+[2024-12-07T03:20:06.647-0300] {processor.py:186} INFO - Started process (PID=42658) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:20:06.710-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:20:06.711-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:20:06.711-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:20:06.717-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:20:06.737-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:20:06.737-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:20:06.748-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:20:06.748-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:20:07.377-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.736 seconds
+[2024-12-07T03:23:17.576-0300] {processor.py:186} INFO - Started process (PID=42841) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:23:17.613-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:23:17.614-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:23:17.614-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:23:17.621-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:23:17.636-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:23:17.636-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:23:17.646-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:23:17.646-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:23:18.691-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 1.121 seconds
+[2024-12-07T03:27:01.442-0300] {processor.py:186} INFO - Started process (PID=43458) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:27:01.512-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:27:01.515-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:27:01.514-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:27:01.524-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:27:01.543-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:27:01.543-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:27:01.561-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:27:01.560-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:27:03.103-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 1.668 seconds
+[2024-12-07T03:29:30.661-0300] {processor.py:186} INFO - Started process (PID=43834) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:29:30.670-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:29:30.673-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:30.672-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:29:30.680-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:29:30.696-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:30.696-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:29:30.708-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:30.707-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:29:30.794-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.138 seconds
+[2024-12-07T03:34:07.077-0300] {processor.py:186} INFO - Started process (PID=44563) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:34:07.099-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:34:07.100-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:34:07.100-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:34:07.106-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:34:07.124-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:34:07.124-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:34:07.135-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:34:07.135-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:34:07.209-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.137 seconds
+[2024-12-07T03:35:41.332-0300] {processor.py:186} INFO - Started process (PID=44744) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:35:41.385-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:35:41.386-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:41.386-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:35:41.393-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:35:41.410-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:41.410-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:35:41.424-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:41.423-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:35:41.558-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.233 seconds
+[2024-12-07T03:37:46.193-0300] {processor.py:186} INFO - Started process (PID=44952) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:37:46.207-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:37:46.208-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:46.208-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:37:46.214-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:37:46.231-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:46.230-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:37:46.243-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:46.243-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:37:46.298-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2024-12-07T03:39:02.942-0300] {processor.py:186} INFO - Started process (PID=45112) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:39:02.955-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:39:02.956-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:02.956-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:39:02.963-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:39:02.978-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:02.977-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:39:02.988-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:02.987-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:39:03.043-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.105 seconds
+[2024-12-07T03:40:19.830-0300] {processor.py:186} INFO - Started process (PID=45265) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:40:19.840-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:40:19.841-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:19.841-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:40:19.848-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:40:19.863-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:19.862-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:40:19.872-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:19.872-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:40:20.175-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.352 seconds
+[2024-12-07T03:44:04.919-0300] {processor.py:186} INFO - Started process (PID=45843) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:44:04.940-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:44:04.943-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:44:04.942-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:44:04.950-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:44:04.967-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:44:04.967-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:44:04.981-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:44:04.980-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:44:05.052-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.137 seconds
+[2024-12-07T03:48:15.706-0300] {processor.py:186} INFO - Started process (PID=46680) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:48:15.707-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:48:15.709-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:48:15.709-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:48:15.718-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:48:15.736-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:48:15.736-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:48:15.747-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:48:15.747-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:48:16.106-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.405 seconds
+[2024-12-07T03:50:20.841-0300] {processor.py:186} INFO - Started process (PID=46925) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:50:20.910-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:50:20.912-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:50:20.912-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:50:20.924-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:50:20.942-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:50:20.942-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:50:20.955-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:50:20.955-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:50:22.337-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 1.502 seconds
+[2024-12-07T03:51:35.515-0300] {processor.py:186} INFO - Started process (PID=47003) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:51:35.650-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:51:35.652-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:35.652-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:51:35.661-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:51:35.677-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:35.677-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:35.691-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:35.691-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:51:35.843-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.334 seconds
+[2024-12-07T03:52:57.700-0300] {processor.py:186} INFO - Started process (PID=47158) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:52:57.712-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:52:57.714-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:57.714-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:52:57.726-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:52:57.742-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:57.742-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:52:57.755-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:57.755-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:52:57.811-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.117 seconds
+[2024-12-07T03:54:16.752-0300] {processor.py:186} INFO - Started process (PID=47308) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:54:16.772-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:54:16.774-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:16.774-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:54:16.782-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:54:16.797-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:16.797-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:54:16.808-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:16.808-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:54:16.907-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.160 seconds
+[2024-12-07T03:56:17.269-0300] {processor.py:186} INFO - Started process (PID=47556) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:56:17.287-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:56:17.289-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:17.289-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:56:17.300-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:56:17.318-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:17.318-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:56:17.333-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:17.332-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:56:17.409-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.146 seconds
+[2024-12-07T03:57:35.736-0300] {processor.py:186} INFO - Started process (PID=47693) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:57:35.747-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:57:35.749-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:35.749-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:57:35.757-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:57:35.771-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:35.771-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:57:35.784-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:35.784-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:57:35.841-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.110 seconds
+[2024-12-07T03:59:29.214-0300] {processor.py:186} INFO - Started process (PID=47960) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:59:29.259-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T03:59:29.261-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:29.261-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:59:29.269-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T03:59:29.288-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:29.288-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:59:29.301-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:29.300-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T03:59:29.369-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.161 seconds
+[2024-12-07T04:00:45.796-0300] {processor.py:186} INFO - Started process (PID=48105) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:00:45.803-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:00:45.805-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:45.804-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:00:45.813-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:00:45.827-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:45.827-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:00:45.838-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:45.838-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:00:45.895-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.105 seconds
+[2024-12-07T04:07:32.740-0300] {processor.py:186} INFO - Started process (PID=49154) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:07:32.741-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:07:32.742-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:07:32.741-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:07:32.750-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:07:32.766-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:07:32.766-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:07:32.777-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:07:32.777-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:07:33.692-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.957 seconds
+[2024-12-07T04:08:59.641-0300] {processor.py:186} INFO - Started process (PID=49382) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:08:59.642-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:08:59.643-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:59.643-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:08:59.650-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:08:59.669-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:59.668-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:08:59.684-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:59.683-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:09:00.471-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.836 seconds
+[2024-12-07T04:11:11.012-0300] {processor.py:186} INFO - Started process (PID=49577) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:11:11.206-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:11:11.208-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:11.208-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:11:11.217-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:11:11.237-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:11.237-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:11:11.251-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:11.251-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:11:11.742-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.737 seconds
+[2024-12-07T04:12:45.963-0300] {processor.py:186} INFO - Started process (PID=49719) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:12:45.971-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:12:45.974-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:45.973-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:12:45.985-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:12:46.008-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:46.007-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:12:46.022-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:46.022-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:12:46.107-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.151 seconds
+[2024-12-07T04:14:03.050-0300] {processor.py:186} INFO - Started process (PID=49873) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:14:03.062-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:14:03.063-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:03.062-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:14:03.071-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:14:03.087-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:03.086-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:14:03.099-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:03.099-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:14:03.158-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2024-12-07T04:15:20.208-0300] {processor.py:186} INFO - Started process (PID=50004) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:15:20.221-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-07T04:15:20.223-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:20.223-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:15:20.231-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-07T04:15:20.250-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:20.250-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:15:20.262-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:20.262-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-07T04:15:20.331-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.134 seconds

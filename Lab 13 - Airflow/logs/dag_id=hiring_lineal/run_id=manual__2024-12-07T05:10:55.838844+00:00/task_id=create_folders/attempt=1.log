@@ -1,0 +1,28 @@
+[2024-12-07T02:11:00.456-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T02:11:00.465-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_lineal.create_folders manual__2024-12-07T05:10:55.838844+00:00 [queued]>
+[2024-12-07T02:11:00.471-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_lineal.create_folders manual__2024-12-07T05:10:55.838844+00:00 [queued]>
+[2024-12-07T02:11:00.472-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T02:11:00.542-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): create_folders> on 2024-12-07 05:10:55.838844+00:00
+[2024-12-07T02:11:00.547-0300] {standard_task_runner.py:72} INFO - Started process 35852 to run task
+[2024-12-07T02:11:00.551-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_lineal', 'create_folders', 'manual__2024-12-07T05:10:55.838844+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/dag_lineal1.py', '--cfg-path', '/tmp/tmpclg8_r1i']
+[2024-12-07T02:11:00.552-0300] {standard_task_runner.py:105} INFO - Job 7: Subtask create_folders
+[2024-12-07T02:11:00.737-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_lineal.create_folders manual__2024-12-07T05:10:55.838844+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T02:11:00.867-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_lineal' AIRFLOW_CTX_TASK_ID='create_folders' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T05:10:55.838844+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T05:10:55.838844+00:00'
+[2024-12-07T02:11:00.869-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T02:11:00.869-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T02:11:00.869-0300] {logging_mixin.py:190} INFO - Current task name:create_folders state:running start_date:2024-12-07 05:11:00.465328+00:00
+[2024-12-07T02:11:00.869-0300] {logging_mixin.py:190} INFO - Dag name:hiring_lineal and current dag run status:running
+[2024-12-07T02:11:00.869-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T02:11:00.870-0300] {logging_mixin.py:190} INFO - Creating folders for /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/output_2024-12-07/raw
+[2024-12-07T02:11:00.870-0300] {logging_mixin.py:190} INFO - Creating folders for /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/output_2024-12-07/splits
+[2024-12-07T02:11:00.870-0300] {logging_mixin.py:190} INFO - Creating folders for /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/output_2024-12-07/models
+[2024-12-07T02:11:00.870-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-07T02:11:00.874-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T02:11:00.874-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_lineal, task_id=create_folders, run_id=manual__2024-12-07T05:10:55.838844+00:00, execution_date=20241207T051055, start_date=20241207T051100, end_date=20241207T051100
+[2024-12-07T02:11:00.927-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T02:11:00.927-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T02:11:00.928-0300] {logging_mixin.py:190} INFO - Dag name:hiring_lineal queued_at:2024-12-07 05:10:55.896074+00:00
+[2024-12-07T02:11:00.928-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:PythonOperator
+[2024-12-07T02:11:00.966-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T02:11:00.985-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T02:11:01.028-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

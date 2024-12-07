@@ -1,0 +1,25 @@
+[2024-12-07T03:33:15.861-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T03:33:15.869-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.load_and_merge manual__2024-12-07T06:26:56.979469+00:00 [queued]>
+[2024-12-07T03:33:15.875-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.load_and_merge manual__2024-12-07T06:26:56.979469+00:00 [queued]>
+[2024-12-07T03:33:15.875-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T03:33:15.929-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_and_merge> on 2024-12-07 06:26:56.979469+00:00
+[2024-12-07T03:33:15.936-0300] {standard_task_runner.py:72} INFO - Started process 44290 to run task
+[2024-12-07T03:33:15.939-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_dynamic_pipeline', 'load_and_merge', 'manual__2024-12-07T06:26:56.979469+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/dag_dynamic.py', '--cfg-path', '/tmp/tmp473k0yj2']
+[2024-12-07T03:33:15.940-0300] {standard_task_runner.py:105} INFO - Job 61: Subtask load_and_merge
+[2024-12-07T03:33:16.008-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_dynamic_pipeline.load_and_merge manual__2024-12-07T06:26:56.979469+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T03:33:16.234-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_dynamic_pipeline' AIRFLOW_CTX_TASK_ID='load_and_merge' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T06:26:56.979469+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T06:26:56.979469+00:00'
+[2024-12-07T03:33:16.235-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T03:33:16.235-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T03:33:16.235-0300] {logging_mixin.py:190} INFO - Current task name:load_and_merge state:running start_date:2024-12-07 06:33:15.870130+00:00
+[2024-12-07T03:33:16.235-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline and current dag run status:running
+[2024-12-07T03:33:16.235-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T03:33:16.249-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-07T03:33:16.253-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T03:33:16.253-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_dynamic_pipeline, task_id=load_and_merge, run_id=manual__2024-12-07T06:26:56.979469+00:00, execution_date=20241207T062656, start_date=20241207T063315, end_date=20241207T063316
+[2024-12-07T03:33:16.303-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T03:33:16.303-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T03:33:16.303-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline queued_at:2024-12-07 06:26:58.026518+00:00
+[2024-12-07T03:33:16.304-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:PythonOperator
+[2024-12-07T03:33:16.352-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T03:33:16.371-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T03:33:16.415-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,30 @@
+[2024-12-07T03:30:49.523-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T03:30:49.534-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.decide_datasets scheduled__2024-10-05T15:00:00+00:00 [queued]>
+[2024-12-07T03:30:49.539-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.decide_datasets scheduled__2024-10-05T15:00:00+00:00 [queued]>
+[2024-12-07T03:30:49.539-0300] {taskinstance.py:2866} INFO - Starting attempt 4 of 5
+[2024-12-07T03:30:50.386-0300] {taskinstance.py:2889} INFO - Executing <Task(BranchPythonOperator): decide_datasets> on 2024-10-05 15:00:00+00:00
+[2024-12-07T03:30:50.392-0300] {standard_task_runner.py:72} INFO - Started process 43980 to run task
+[2024-12-07T03:30:50.397-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_dynamic_pipeline', 'decide_datasets', 'scheduled__2024-10-05T15:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/dag_dynamic.py', '--cfg-path', '/tmp/tmprvh6xuez']
+[2024-12-07T03:30:50.398-0300] {standard_task_runner.py:105} INFO - Job 48: Subtask decide_datasets
+[2024-12-07T03:30:51.609-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_dynamic_pipeline.decide_datasets scheduled__2024-10-05T15:00:00+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T03:30:52.619-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_dynamic_pipeline' AIRFLOW_CTX_TASK_ID='decide_datasets' AIRFLOW_CTX_EXECUTION_DATE='2024-10-05T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-05T15:00:00+00:00'
+[2024-12-07T03:30:52.620-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T03:30:52.620-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T03:30:52.620-0300] {logging_mixin.py:190} INFO - Current task name:decide_datasets state:running start_date:2024-12-07 06:30:49.534828+00:00
+[2024-12-07T03:30:52.620-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline and current dag run status:running
+[2024-12-07T03:30:52.620-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T03:30:52.621-0300] {baseoperator.py:416} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2024-12-07T03:30:52.621-0300] {logging_mixin.py:190} INFO - Execution date 2024-10-05 es igual o posterior a 2024-06-28. Descargando data_1.csv y data_2.csv.
+[2024-12-07T03:30:52.621-0300] {python.py:240} INFO - Done. Returned value was: download_data_1_and_2
+[2024-12-07T03:30:52.621-0300] {branch.py:38} INFO - Branch into download_data_1_and_2
+[2024-12-07T03:30:52.622-0300] {skipmixin.py:230} INFO - Following branch ('download_data_1_and_2',)
+[2024-12-07T03:30:52.628-0300] {skipmixin.py:278} INFO - Skipping tasks [('download_data_1', -1)]
+[2024-12-07T03:30:55.038-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T03:30:55.039-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_dynamic_pipeline, task_id=decide_datasets, run_id=scheduled__2024-10-05T15:00:00+00:00, execution_date=20241005T150000, start_date=20241207T063049, end_date=20241207T063055
+[2024-12-07T03:30:56.014-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T03:30:56.015-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T03:30:56.015-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline queued_at:2024-12-07 06:27:03.158666+00:00
+[2024-12-07T03:30:56.015-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:BranchPythonOperator
+[2024-12-07T03:30:57.557-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T03:30:57.576-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T03:30:58.561-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

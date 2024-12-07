@@ -1,0 +1,102 @@
+[2024-12-07T03:33:02.305-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T03:33:02.316-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [queued]>
+[2024-12-07T03:33:02.322-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [queued]>
+[2024-12-07T03:33:02.322-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T03:33:02.371-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): download_data_1_and_2> on 2024-11-05 15:00:00+00:00
+[2024-12-07T03:33:02.377-0300] {standard_task_runner.py:72} INFO - Started process 44224 to run task
+[2024-12-07T03:33:02.380-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_dynamic_pipeline', 'download_data_1_and_2', 'scheduled__2024-11-05T15:00:00+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/dag_dynamic.py', '--cfg-path', '/tmp/tmpdk5joga0']
+[2024-12-07T03:33:02.381-0300] {standard_task_runner.py:105} INFO - Job 58: Subtask download_data_1_and_2
+[2024-12-07T03:33:02.460-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T03:33:02.597-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_dynamic_pipeline' AIRFLOW_CTX_TASK_ID='download_data_1_and_2' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-05T15:00:00+00:00'
+[2024-12-07T03:33:02.597-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T03:33:02.598-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T03:33:02.598-0300] {logging_mixin.py:190} INFO - Current task name:download_data_1_and_2 state:running start_date:2024-12-07 06:33:02.316505+00:00
+[2024-12-07T03:33:02.598-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline and current dag run status:running
+[2024-12-07T03:33:02.598-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T03:33:02.599-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-07T03:33:02.599-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-11-05/raw/data_1.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv && curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-11-05/raw/data_2.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_2.csv']
+[2024-12-07T03:33:02.612-0300] {subprocess.py:99} INFO - Output:
+[2024-12-07T03:33:02.618-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T03:33:02.619-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T03:33:03.698-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32735  100 32735    0     0  30325      0  0:00:01  0:00:01 --:--:-- 30338100 32735  100 32735    0     0  30322      0  0:00:01  0:00:01 --:--:-- 30338
+[2024-12-07T03:33:03.705-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T03:33:03.706-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T03:33:04.107-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32687  100 32687    0     0  81409      0 --:--:-- --:--:-- --:--:-- 81513
+[2024-12-07T03:33:04.109-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-07T03:33:04.169-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T03:33:04.169-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_dynamic_pipeline, task_id=download_data_1_and_2, run_id=scheduled__2024-11-05T15:00:00+00:00, execution_date=20241105T150000, start_date=20241207T063302, end_date=20241207T063304
+[2024-12-07T03:33:04.233-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T03:33:04.234-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T03:33:04.234-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline queued_at:2024-12-07 06:27:11.618485+00:00
+[2024-12-07T03:33:04.234-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:BashOperator
+[2024-12-07T03:33:04.243-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T03:33:04.261-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T03:33:04.304-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-07T03:45:42.084-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T03:45:42.122-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [queued]>
+[2024-12-07T03:45:42.129-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [queued]>
+[2024-12-07T03:45:42.129-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T03:45:42.195-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): download_data_1_and_2> on 2024-11-05 15:00:00+00:00
+[2024-12-07T03:45:42.204-0300] {standard_task_runner.py:72} INFO - Started process 46100 to run task
+[2024-12-07T03:45:42.207-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_dynamic_pipeline', 'download_data_1_and_2', 'scheduled__2024-11-05T15:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/dag_dynamic.py', '--cfg-path', '/tmp/tmpqo_caizm']
+[2024-12-07T03:45:42.208-0300] {standard_task_runner.py:105} INFO - Job 48: Subtask download_data_1_and_2
+[2024-12-07T03:45:42.295-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T03:45:42.455-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_dynamic_pipeline' AIRFLOW_CTX_TASK_ID='download_data_1_and_2' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-05T15:00:00+00:00'
+[2024-12-07T03:45:42.456-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T03:45:42.456-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T03:45:42.457-0300] {logging_mixin.py:190} INFO - Current task name:download_data_1_and_2 state:running start_date:2024-12-07 06:45:42.122773+00:00
+[2024-12-07T03:45:42.457-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline and current dag run status:running
+[2024-12-07T03:45:42.457-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T03:45:42.458-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-07T03:45:42.458-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-11-05/raw/data_1.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv && curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-11-05/raw/data_2.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_2.csv']
+[2024-12-07T03:45:42.474-0300] {subprocess.py:99} INFO - Output:
+[2024-12-07T03:45:42.481-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T03:45:42.481-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T03:45:42.562-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32735  100 32735    0     0   396k      0 --:--:-- --:--:-- --:--:--  399k
+[2024-12-07T03:45:42.571-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T03:45:42.572-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T03:45:43.115-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32687  100 32687    0     0  60156      0 --:--:-- --:--:-- --:--:-- 60197
+[2024-12-07T03:45:43.116-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-07T03:45:43.173-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T03:45:43.173-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_dynamic_pipeline, task_id=download_data_1_and_2, run_id=scheduled__2024-11-05T15:00:00+00:00, execution_date=20241105T150000, start_date=20241207T064542, end_date=20241207T064543
+[2024-12-07T03:45:43.226-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T03:45:43.227-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T03:45:43.227-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline queued_at:2024-12-07 06:44:29.722220+00:00
+[2024-12-07T03:45:43.227-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:BashOperator
+[2024-12-07T03:45:43.264-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T03:45:43.289-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T03:45:43.362-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-07T04:04:16.447-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T04:04:16.485-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [queued]>
+[2024-12-07T04:04:16.492-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [queued]>
+[2024-12-07T04:04:16.492-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T04:04:16.559-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): download_data_1_and_2> on 2024-11-05 15:00:00+00:00
+[2024-12-07T04:04:16.566-0300] {standard_task_runner.py:72} INFO - Started process 48587 to run task
+[2024-12-07T04:04:16.569-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_dynamic_pipeline', 'download_data_1_and_2', 'scheduled__2024-11-05T15:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/dag_dynamic.py', '--cfg-path', '/tmp/tmpmhsya0b8']
+[2024-12-07T04:04:16.570-0300] {standard_task_runner.py:105} INFO - Job 49: Subtask download_data_1_and_2
+[2024-12-07T04:04:16.661-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_dynamic_pipeline.download_data_1_and_2 scheduled__2024-11-05T15:00:00+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T04:04:16.852-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_dynamic_pipeline' AIRFLOW_CTX_TASK_ID='download_data_1_and_2' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-05T15:00:00+00:00'
+[2024-12-07T04:04:16.853-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T04:04:16.854-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T04:04:16.854-0300] {logging_mixin.py:190} INFO - Current task name:download_data_1_and_2 state:running start_date:2024-12-07 07:04:16.485560+00:00
+[2024-12-07T04:04:16.854-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline and current dag run status:running
+[2024-12-07T04:04:16.854-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T04:04:16.855-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-07T04:04:16.855-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-11-05/raw/data_1.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv && curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-11-05/raw/data_2.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_2.csv']
+[2024-12-07T04:04:16.867-0300] {subprocess.py:99} INFO - Output:
+[2024-12-07T04:04:16.874-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T04:04:16.875-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T04:04:17.307-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32735  100 32735    0     0  75636      0 --:--:-- --:--:-- --:--:-- 75600
+[2024-12-07T04:04:17.315-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T04:04:17.315-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T04:04:17.391-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32687  100 32687    0     0   419k      0 --:--:-- --:--:-- --:--:--  425k
+[2024-12-07T04:04:17.393-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-07T04:04:17.450-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T04:04:17.451-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_dynamic_pipeline, task_id=download_data_1_and_2, run_id=scheduled__2024-11-05T15:00:00+00:00, execution_date=20241105T150000, start_date=20241207T070416, end_date=20241207T070417
+[2024-12-07T04:04:17.505-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T04:04:17.505-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T04:04:17.505-0300] {logging_mixin.py:190} INFO - Dag name:hiring_dynamic_pipeline queued_at:2024-12-07 07:02:23.453548+00:00
+[2024-12-07T04:04:17.505-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:BashOperator
+[2024-12-07T04:04:17.545-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T04:04:17.565-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T04:04:17.605-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

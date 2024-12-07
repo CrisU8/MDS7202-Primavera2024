@@ -1,0 +1,416 @@
+[2024-12-07T02:10:35.679-0300] {processor.py:186} INFO - Started process (PID=35766) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:10:35.679-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:10:35.682-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:35.681-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:10:37.068-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:10:37.338-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.337-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.394-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.394-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.451-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.451-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.748-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.747-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.816-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.816-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.861-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.861-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.907-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.906-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:hiring_dynamic_pipeline
+[2024-12-07T02:10:37.907-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.907-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:10:37.917-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.916-0300] {dag.py:3262} INFO - Creating ORM DAG for hiring_dynamic_pipeline
+[2024-12-07T02:10:37.925-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:37.925-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:10:37.993-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 2.322 seconds
+[2024-12-07T02:13:00.044-0300] {processor.py:186} INFO - Started process (PID=36055) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:13:00.046-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:13:00.051-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:00.049-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:13:01.126-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:13:01.141-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:01.141-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:13:01.162-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:01.161-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:13:01.226-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.198 seconds
+[2024-12-07T02:15:49.895-0300] {processor.py:186} INFO - Started process (PID=36392) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:15:49.909-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:15:49.911-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:49.910-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:15:50.830-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:15:50.848-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:50.847-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:15:50.865-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:50.865-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:15:50.930-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.043 seconds
+[2024-12-07T02:17:26.391-0300] {processor.py:186} INFO - Started process (PID=36543) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:17:26.443-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:17:26.445-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:26.445-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:17:27.385-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:17:27.400-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:27.399-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:17:27.417-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:27.417-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:17:27.551-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.167 seconds
+[2024-12-07T02:18:59.028-0300] {processor.py:186} INFO - Started process (PID=36782) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:18:59.258-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:18:59.261-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:59.260-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:19:00.099-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:19:00.847-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:19:00.846-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:19:01.797-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:19:01.797-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:19:02.836-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 3.816 seconds
+[2024-12-07T02:33:09.199-0300] {processor.py:186} INFO - Started process (PID=38104) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:33:09.223-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:33:09.225-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:09.225-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:33:09.832-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:33:09.851-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:09.851-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:33:09.867-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:09.866-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:33:09.973-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.779 seconds
+[2024-12-07T02:36:38.337-0300] {processor.py:186} INFO - Started process (PID=38541) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:36:38.339-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:36:38.341-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:38.341-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:36:38.976-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:36:38.991-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:38.990-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:36:39.007-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:39.007-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:36:39.059-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.728 seconds
+[2024-12-07T02:39:57.115-0300] {processor.py:186} INFO - Started process (PID=38817) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:39:57.168-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:39:57.169-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:39:57.169-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:39:57.833-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:39:57.848-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:39:57.848-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:39:57.865-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:39:57.865-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:39:58.978-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.868 seconds
+[2024-12-07T02:41:28.845-0300] {processor.py:186} INFO - Started process (PID=38989) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:41:28.850-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:41:28.852-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:28.852-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:41:29.518-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:41:29.542-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:29.541-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:41:29.567-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:29.566-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:41:29.628-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.788 seconds
+[2024-12-07T02:45:29.953-0300] {processor.py:186} INFO - Started process (PID=39777) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:45:29.969-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:45:29.971-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:29.971-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:45:30.587-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:45:30.602-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:30.602-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:45:30.619-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:30.619-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:45:30.678-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.730 seconds
+[2024-12-07T02:50:48.858-0300] {processor.py:186} INFO - Started process (PID=40901) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:50:48.882-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T02:50:48.884-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:48.884-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:50:49.501-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T02:50:49.517-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:49.517-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:50:49.533-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:49.533-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T02:50:49.633-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.782 seconds
+[2024-12-07T03:18:59.227-0300] {processor.py:186} INFO - Started process (PID=42544) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:18:59.244-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:18:59.245-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:18:59.245-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:18:59.867-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:18:59.865-0300] {dagbag.py:387} ERROR - Failed to import: /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+Traceback (most recent call last):
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py", line 70, in <module>
+    download_data_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-12-07T03:18:59.867-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:18:59.929-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.707 seconds
+[2024-12-07T03:22:22.196-0300] {processor.py:186} INFO - Started process (PID=42767) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:22:22.244-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:22:22.245-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:22.245-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:22:22.853-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:22.852-0300] {dagbag.py:387} ERROR - Failed to import: /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+Traceback (most recent call last):
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py", line 135, in <module>
+    branch_task >> [download_data_1_task, download_data_1_and_2_task]
+NameError: name 'download_data_1_task' is not defined
+[2024-12-07T03:22:22.853-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:22:23.611-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.421 seconds
+[2024-12-07T03:24:35.585-0300] {processor.py:186} INFO - Started process (PID=43011) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:24:35.597-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:24:35.599-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:35.598-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:24:36.189-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:24:36.395-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:36.395-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:24:36.410-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:36.410-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T03:24:38.276-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 2.696 seconds
+[2024-12-07T03:25:21.868-0300] {processor.py:186} INFO - Started process (PID=43139) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:25:21.877-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:25:21.880-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:21.880-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:25:22.492-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:25:22.514-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:22.514-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:25:22.657-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:22.657-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T03:25:23.759-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.896 seconds
+[2024-12-07T03:25:46.489-0300] {processor.py:186} INFO - Started process (PID=43324) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:25:46.500-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:25:46.502-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:46.502-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:25:47.110-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:25:47.138-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:47.137-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:25:47.263-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:47.263-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T03:25:48.492-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 2.007 seconds
+[2024-12-07T03:28:53.601-0300] {processor.py:186} INFO - Started process (PID=43747) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:28:53.631-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:28:53.633-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:28:53.632-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:28:54.150-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:28:54.704-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:28:54.704-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:28:54.722-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:28:54.722-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:28:55.984-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 2.388 seconds
+[2024-12-07T03:30:26.229-0300] {processor.py:186} INFO - Started process (PID=43918) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:30:26.246-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:30:26.248-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:26.247-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:30:26.798-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:30:26.822-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:26.822-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:30:26.841-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:26.841-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:30:27.441-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.218 seconds
+[2024-12-07T03:35:09.610-0300] {processor.py:186} INFO - Started process (PID=44678) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:35:09.730-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:35:09.731-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:09.731-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:35:10.239-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:35:10.256-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:10.256-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:35:10.277-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:10.276-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:35:11.272-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.667 seconds
+[2024-12-07T03:36:06.741-0300] {processor.py:186} INFO - Started process (PID=44790) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:36:06.745-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:36:06.747-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:06.746-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:36:07.322-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:36:07.340-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:07.339-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:36:07.356-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:07.355-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:36:07.525-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.790 seconds
+[2024-12-07T03:37:15.711-0300] {processor.py:186} INFO - Started process (PID=44873) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:37:15.741-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:37:15.743-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:15.742-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:37:16.302-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:37:16.324-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:16.324-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:37:16.342-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:16.342-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:37:17.577-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.870 seconds
+[2024-12-07T03:38:11.524-0300] {processor.py:186} INFO - Started process (PID=44995) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:38:11.536-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:38:11.537-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:11.537-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:38:12.059-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:38:12.076-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:12.076-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:38:12.092-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:12.092-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:38:12.269-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.750 seconds
+[2024-12-07T03:38:50.723-0300] {processor.py:186} INFO - Started process (PID=45075) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:38:50.729-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:38:50.731-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:50.730-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:38:51.339-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:38:51.360-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:51.360-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:38:51.378-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:51.378-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:38:51.443-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.729 seconds
+[2024-12-07T03:39:30.719-0300] {processor.py:186} INFO - Started process (PID=45155) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:39:30.730-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:39:30.731-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:30.731-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:39:31.244-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:39:31.263-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:31.262-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:39:31.280-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:31.280-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:39:31.463-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.750 seconds
+[2024-12-07T03:40:09.058-0300] {processor.py:186} INFO - Started process (PID=45225) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:40:09.066-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:40:09.067-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:09.067-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:40:09.579-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:40:09.705-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:09.705-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:40:09.719-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:09.719-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:40:09.773-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.720 seconds
+[2024-12-07T03:40:46.016-0300] {processor.py:186} INFO - Started process (PID=45296) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:40:46.025-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:40:46.026-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:46.026-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:40:46.571-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:40:46.588-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:46.588-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:40:46.607-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:46.607-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:40:46.781-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.770 seconds
+[2024-12-07T03:41:08.740-0300] {processor.py:186} INFO - Started process (PID=45344) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:41:08.744-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:41:08.746-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:41:08.745-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:41:09.439-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:41:09.459-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:41:09.459-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:41:09.607-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:41:09.606-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:41:09.692-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.959 seconds
+[2024-12-07T03:43:35.913-0300] {processor.py:186} INFO - Started process (PID=45761) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:43:35.926-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:43:35.929-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:35.928-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:43:36.605-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:43:36.839-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:36.838-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:43:36.849-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:36.849-0300] {dag.py:3262} INFO - Creating ORM DAG for hiring_dynamic_pipeline
+[2024-12-07T03:43:36.859-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:36.859-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T03:43:36.921-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.014 seconds
+[2024-12-07T03:47:18.155-0300] {processor.py:186} INFO - Started process (PID=46543) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:47:18.216-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:47:18.218-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:18.217-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:47:18.826-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:47:20.093-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:20.093-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:47:20.111-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:20.111-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:47:20.803-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 2.657 seconds
+[2024-12-07T03:49:23.750-0300] {processor.py:186} INFO - Started process (PID=46844) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:49:23.821-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:49:23.823-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:23.823-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:49:24.476-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:49:24.496-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:24.496-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:49:24.521-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:24.521-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:49:25.175-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.431 seconds
+[2024-12-07T03:51:06.034-0300] {processor.py:186} INFO - Started process (PID=46961) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:51:06.056-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:51:06.059-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:06.059-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:51:06.706-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:51:06.722-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:06.722-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:06.740-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:06.740-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:51:06.795-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.766 seconds
+[2024-12-07T03:51:53.466-0300] {processor.py:186} INFO - Started process (PID=47023) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:51:53.475-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:51:53.477-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:53.477-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:51:54.059-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:51:54.077-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:54.077-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:54.198-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:54.197-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:51:54.252-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.795 seconds
+[2024-12-07T03:52:33.508-0300] {processor.py:186} INFO - Started process (PID=47074) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:52:33.516-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:52:33.518-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:33.517-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:52:34.503-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:52:34.540-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:34.539-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:52:34.576-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:34.575-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:52:34.653-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.153 seconds
+[2024-12-07T03:53:32.046-0300] {processor.py:186} INFO - Started process (PID=47190) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:53:32.067-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:53:32.069-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:32.069-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:53:32.705-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:53:32.721-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:32.720-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:53:32.738-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:32.738-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:53:33.988-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.947 seconds
+[2024-12-07T03:54:43.644-0300] {processor.py:186} INFO - Started process (PID=47340) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:54:43.655-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:54:43.658-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:43.657-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:54:44.279-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:54:44.295-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:44.294-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:54:44.311-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:44.311-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:54:44.390-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.754 seconds
+[2024-12-07T03:55:46.607-0300] {processor.py:186} INFO - Started process (PID=47494) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:55:46.638-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:55:46.641-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:46.640-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:55:47.276-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:55:47.293-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:47.292-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:55:47.309-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:47.309-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:55:47.928-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.326 seconds
+[2024-12-07T03:56:41.661-0300] {processor.py:186} INFO - Started process (PID=47590) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:56:41.668-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:56:41.670-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:41.670-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:56:42.313-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:56:42.328-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:42.328-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:56:42.345-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:42.345-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:56:42.399-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.743 seconds
+[2024-12-07T03:57:20.524-0300] {processor.py:186} INFO - Started process (PID=47665) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:57:20.539-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:57:20.541-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:20.540-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:57:21.173-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:57:21.189-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:21.189-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:57:21.205-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:21.204-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:57:21.263-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.744 seconds
+[2024-12-07T03:58:00.450-0300] {processor.py:186} INFO - Started process (PID=47716) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:58:00.458-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:58:00.460-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:00.459-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:58:01.085-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:58:01.100-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:01.099-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:58:01.116-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:01.116-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:58:01.174-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.728 seconds
+[2024-12-07T03:58:38.088-0300] {processor.py:186} INFO - Started process (PID=47829) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:58:38.102-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:58:38.104-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:38.104-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:58:38.736-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:58:38.752-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:38.751-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:58:38.769-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:38.769-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T03:58:38.827-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.745 seconds
+[2024-12-07T03:59:55.714-0300] {processor.py:186} INFO - Started process (PID=47984) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:59:55.719-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T03:59:55.721-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:55.721-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:59:56.417-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T03:59:56.510-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:56.509-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:59:56.519-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:56.519-0300] {dag.py:3262} INFO - Creating ORM DAG for hiring_dynamic_pipeline
+[2024-12-07T03:59:56.529-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:56.529-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T03:59:56.589-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.880 seconds
+[2024-12-07T04:00:34.079-0300] {processor.py:186} INFO - Started process (PID=48066) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:00:34.093-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:00:34.095-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:34.095-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:00:34.959-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:00:34.982-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:34.982-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:00:35.007-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:35.007-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T04:00:35.724-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.652 seconds
+[2024-12-07T04:01:11.942-0300] {processor.py:186} INFO - Started process (PID=48138) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:01:11.955-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:01:11.957-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:11.956-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:01:12.576-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:01:12.591-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:12.590-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:01:12.606-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:12.606-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-10-05 15:00:00+00:00, run_after=2024-11-05 15:00:00+00:00
+[2024-12-07T04:01:12.658-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.721 seconds
+[2024-12-07T04:02:16.998-0300] {processor.py:186} INFO - Started process (PID=48289) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:02:17.148-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:02:17.151-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:17.151-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:02:17.965-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:02:20.714-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:20.714-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:02:20.738-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:20.738-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-11-05 15:00:00+00:00, run_after=2024-12-05 15:00:00+00:00
+[2024-12-07T04:02:22.061-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 5.071 seconds
+[2024-12-07T04:03:55.042-0300] {processor.py:186} INFO - Started process (PID=48473) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:03:55.064-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:03:55.066-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:03:55.065-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:03:55.714-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:03:55.734-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:03:55.734-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:03:55.749-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:03:55.749-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:03:55.800-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.763 seconds
+[2024-12-07T04:06:04.648-0300] {processor.py:186} INFO - Started process (PID=49025) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:06:04.783-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:06:04.785-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:04.784-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:06:05.538-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:06:05.564-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:05.564-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:06:05.587-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:05.587-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:06:06.790-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 2.150 seconds
+[2024-12-07T04:08:15.265-0300] {processor.py:186} INFO - Started process (PID=49284) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:08:15.330-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:08:15.331-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:15.330-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:08:16.302-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:08:16.334-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:16.334-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:08:16.361-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:16.360-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:08:16.430-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.170 seconds
+[2024-12-07T04:09:23.660-0300] {processor.py:186} INFO - Started process (PID=49406) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:09:23.674-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:09:23.675-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:23.675-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:09:24.351-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:09:24.366-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:24.366-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:09:24.381-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:24.381-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:09:24.892-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 1.237 seconds
+[2024-12-07T04:10:18.044-0300] {processor.py:186} INFO - Started process (PID=49490) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:10:18.054-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:10:18.056-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:18.055-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:10:18.697-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:10:18.715-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:18.714-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:10:18.729-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:18.729-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:10:18.795-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.757 seconds
+[2024-12-07T04:11:26.193-0300] {processor.py:186} INFO - Started process (PID=49590) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:11:26.211-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:11:26.213-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:26.212-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:11:27.000-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:11:27.018-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:27.018-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:11:27.037-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:27.037-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:11:27.116-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.929 seconds
+[2024-12-07T04:12:19.233-0300] {processor.py:186} INFO - Started process (PID=49670) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:12:19.250-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:12:19.251-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:19.251-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:12:20.008-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:12:20.025-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:20.024-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:12:20.040-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:20.040-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:12:20.099-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.871 seconds
+[2024-12-07T04:12:56.284-0300] {processor.py:186} INFO - Started process (PID=49728) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:12:56.286-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:12:56.287-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:56.287-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:12:56.974-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:12:56.989-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:56.989-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:12:57.004-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:57.004-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:12:57.066-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.787 seconds
+[2024-12-07T04:13:33.756-0300] {processor.py:186} INFO - Started process (PID=49799) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:13:33.766-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:13:33.767-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:33.767-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:13:34.480-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:13:34.495-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:34.495-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:13:34.511-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:34.511-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:13:34.570-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.820 seconds
+[2024-12-07T04:14:12.912-0300] {processor.py:186} INFO - Started process (PID=49906) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:14:12.923-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:14:12.925-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:12.925-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:14:13.567-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:14:13.582-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:13.582-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:14:13.596-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:13.596-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:14:13.655-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.750 seconds
+[2024-12-07T04:14:52.147-0300] {processor.py:186} INFO - Started process (PID=49961) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:14:52.157-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:14:52.158-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:52.158-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:14:52.835-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:14:52.851-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:52.851-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:14:52.869-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:52.869-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:14:52.930-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.789 seconds
+[2024-12-07T04:15:31.564-0300] {processor.py:186} INFO - Started process (PID=50017) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:15:31.568-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py for tasks to queue
+[2024-12-07T04:15:31.569-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:31.569-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:15:32.264-0300] {processor.py:925} INFO - DAG(s) 'hiring_dynamic_pipeline' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py
+[2024-12-07T04:15:32.284-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:32.283-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:15:32.305-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:32.305-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_dynamic_pipeline to 2024-12-05 15:00:00+00:00, run_after=2025-01-05 15:00:00+00:00
+[2024-12-07T04:15:32.367-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_dynamic.py took 0.808 seconds

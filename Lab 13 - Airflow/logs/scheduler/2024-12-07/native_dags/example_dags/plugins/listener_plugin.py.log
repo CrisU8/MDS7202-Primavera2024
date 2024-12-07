@@ -1,0 +1,435 @@
+[2024-12-07T01:45:44.436-0300] {processor.py:186} INFO - Started process (PID=33197) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:45:44.437-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T01:45:44.438-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:45:44.438-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:45:44.441-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:45:49.640-0300] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 928, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 641, in update_import_errors
+    session.execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: DELETE FROM import_error WHERE (import_error.filename LIKE ? || '%')]
+[parameters: ('/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-12-07T01:47:53.831-0300] {processor.py:186} INFO - Started process (PID=33430) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:47:53.851-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T01:47:53.852-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:53.852-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:47:53.854-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:47:53.863-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.037 seconds
+[2024-12-07T01:49:35.165-0300] {processor.py:186} INFO - Started process (PID=33674) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:49:35.167-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T01:49:35.169-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:49:35.168-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:49:35.171-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:49:35.179-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2024-12-07T01:50:30.717-0300] {processor.py:186} INFO - Started process (PID=33763) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:50:30.726-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T01:50:30.728-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:30.728-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:50:30.730-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:50:30.739-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.026 seconds
+[2024-12-07T01:50:50.958-0300] {processor.py:186} INFO - Started process (PID=33826) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:50:50.962-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T01:50:50.964-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:50.963-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:50:50.966-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T01:50:50.974-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.021 seconds
+[2024-12-07T02:07:25.951-0300] {processor.py:186} INFO - Started process (PID=35251) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:07:25.953-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:07:25.955-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:25.954-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:07:25.957-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:07:25.965-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2024-12-07T02:10:45.910-0300] {processor.py:186} INFO - Started process (PID=35815) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:10:45.911-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:10:45.913-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:45.912-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:10:45.915-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:10:45.923-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.021 seconds
+[2024-12-07T02:12:24.060-0300] {processor.py:186} INFO - Started process (PID=35990) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:12:24.063-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:12:24.066-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:24.065-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:12:24.069-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:12:24.084-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.035 seconds
+[2024-12-07T02:13:30.340-0300] {processor.py:186} INFO - Started process (PID=36116) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:13:30.581-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:13:30.583-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:30.582-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:13:30.585-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:13:35.599-0300] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 928, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 641, in update_import_errors
+    session.execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1665, in execute
+    ) = compile_state_cls.orm_pre_session_exec(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1852, in orm_pre_session_exec
+    update_options = cls._do_pre_synchronize_fetch(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 2088, in _do_pre_synchronize_fetch
+    result = session.execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT import_error.id 
+FROM import_error 
+WHERE (import_error.filename LIKE ? || '%')]
+[parameters: ('/home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-12-07T02:14:38.199-0300] {processor.py:186} INFO - Started process (PID=36293) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:14:38.282-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:14:38.283-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:14:38.283-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:14:38.285-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:14:38.294-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.103 seconds
+[2024-12-07T02:15:57.618-0300] {processor.py:186} INFO - Started process (PID=36439) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:15:57.632-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:15:57.634-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:57.634-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:15:57.636-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:15:57.645-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.038 seconds
+[2024-12-07T02:16:48.875-0300] {processor.py:186} INFO - Started process (PID=36509) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:16:48.902-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:16:48.904-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:48.903-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:16:48.906-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:16:48.914-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.046 seconds
+[2024-12-07T02:17:34.058-0300] {processor.py:186} INFO - Started process (PID=36585) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:17:34.079-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:17:34.080-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:34.080-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:17:34.082-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:17:34.091-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2024-12-07T02:18:18.251-0300] {processor.py:186} INFO - Started process (PID=36657) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:18:18.281-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:18:18.284-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:18.283-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:18:18.285-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:18:18.294-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.051 seconds
+[2024-12-07T02:30:37.621-0300] {processor.py:186} INFO - Started process (PID=37835) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:30:37.622-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:30:37.624-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:30:37.624-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:30:37.626-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:30:37.635-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2024-12-07T02:33:15.188-0300] {processor.py:186} INFO - Started process (PID=38125) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:33:15.192-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:33:15.197-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:15.195-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:33:15.200-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:33:15.214-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.034 seconds
+[2024-12-07T02:34:40.881-0300] {processor.py:186} INFO - Started process (PID=38338) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:34:40.994-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:34:40.996-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:34:40.995-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:34:40.998-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:34:41.008-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.132 seconds
+[2024-12-07T02:36:47.331-0300] {processor.py:186} INFO - Started process (PID=38586) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:36:47.353-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:36:47.355-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:47.354-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:36:47.357-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:36:47.366-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2024-12-07T02:38:18.944-0300] {processor.py:186} INFO - Started process (PID=38733) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:38:19.063-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:38:19.065-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:19.065-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:38:19.067-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:38:19.077-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.140 seconds
+[2024-12-07T02:40:06.022-0300] {processor.py:186} INFO - Started process (PID=38845) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:40:06.061-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:40:06.063-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:06.063-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:40:06.065-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:40:06.075-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.057 seconds
+[2024-12-07T02:40:58.568-0300] {processor.py:186} INFO - Started process (PID=38950) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:40:58.572-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:40:58.574-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:58.573-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:40:58.576-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:40:58.586-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.024 seconds
+[2024-12-07T02:41:34.733-0300] {processor.py:186} INFO - Started process (PID=39003) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:41:34.741-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:41:34.743-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:34.743-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:41:34.745-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:41:34.754-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.027 seconds
+[2024-12-07T02:42:12.383-0300] {processor.py:186} INFO - Started process (PID=39081) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:42:12.388-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:42:12.389-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:12.389-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:42:12.391-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:42:12.400-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.022 seconds
+[2024-12-07T02:42:55.644-0300] {processor.py:186} INFO - Started process (PID=39213) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:42:55.683-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:42:55.685-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:55.685-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:42:55.688-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:42:55.697-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.059 seconds
+[2024-12-07T02:44:20.638-0300] {processor.py:186} INFO - Started process (PID=39660) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:44:20.766-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:44:20.768-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:20.768-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:44:20.771-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:44:20.780-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.147 seconds
+[2024-12-07T02:45:36.344-0300] {processor.py:186} INFO - Started process (PID=39815) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:45:36.350-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:45:36.353-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:36.352-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:45:36.355-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:45:36.364-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.026 seconds
+[2024-12-07T02:46:07.496-0300] {processor.py:186} INFO - Started process (PID=39969) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:46:07.497-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:46:07.499-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:07.498-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:46:07.500-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:46:07.510-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2024-12-07T02:47:13.005-0300] {processor.py:186} INFO - Started process (PID=40143) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:47:13.006-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:47:13.008-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:13.008-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:47:13.011-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:47:13.023-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.025 seconds
+[2024-12-07T02:48:37.937-0300] {processor.py:186} INFO - Started process (PID=40407) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:48:37.938-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:48:37.940-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:48:37.940-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:48:37.942-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:48:37.951-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2024-12-07T02:49:43.877-0300] {processor.py:186} INFO - Started process (PID=40653) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:49:43.878-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:49:43.880-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:43.880-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:49:43.882-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:49:43.891-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2024-12-07T02:50:57.669-0300] {processor.py:186} INFO - Started process (PID=40930) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:50:57.676-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:50:57.678-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:57.678-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:50:57.680-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:50:57.689-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.028 seconds
+[2024-12-07T02:54:24.465-0300] {processor.py:186} INFO - Started process (PID=41327) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:54:24.482-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T02:54:24.483-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:54:24.483-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:54:24.485-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T02:54:24.495-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.036 seconds
+[2024-12-07T03:19:07.570-0300] {processor.py:186} INFO - Started process (PID=42575) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:19:07.585-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:19:07.587-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:07.586-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:19:07.589-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:19:07.598-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.034 seconds
+[2024-12-07T03:22:39.429-0300] {processor.py:186} INFO - Started process (PID=42806) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:22:39.437-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:22:39.438-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:39.438-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:22:39.441-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:22:39.451-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.027 seconds
+[2024-12-07T03:26:00.152-0300] {processor.py:186} INFO - Started process (PID=43376) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:26:00.161-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:26:00.163-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:00.162-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:26:00.165-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:26:00.175-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.028 seconds
+[2024-12-07T03:29:08.334-0300] {processor.py:186} INFO - Started process (PID=43790) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:29:08.384-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:29:08.386-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:08.386-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:29:08.388-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:29:08.397-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.069 seconds
+[2024-12-07T03:31:36.872-0300] {processor.py:186} INFO - Started process (PID=44049) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:31:36.921-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:31:36.922-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:31:36.922-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:31:36.925-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:31:36.933-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.067 seconds
+[2024-12-07T03:35:21.120-0300] {processor.py:186} INFO - Started process (PID=44700) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:35:21.155-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:35:21.156-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:21.156-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:35:21.158-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:35:21.167-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2024-12-07T03:36:14.853-0300] {processor.py:186} INFO - Started process (PID=44818) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:36:14.862-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:36:14.863-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:14.863-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:36:14.865-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:36:14.877-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.029 seconds
+[2024-12-07T03:37:25.885-0300] {processor.py:186} INFO - Started process (PID=44927) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:37:25.886-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:37:25.887-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:25.887-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:37:25.889-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:37:25.898-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2024-12-07T03:38:20.659-0300] {processor.py:186} INFO - Started process (PID=45021) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:38:20.670-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:38:20.672-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:20.672-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:38:20.674-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:38:20.684-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.030 seconds
+[2024-12-07T03:39:39.529-0300] {processor.py:186} INFO - Started process (PID=45183) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:39:39.542-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:39:39.543-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:39.543-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:39:39.545-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:39:39.554-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.029 seconds
+[2024-12-07T03:40:53.337-0300] {processor.py:186} INFO - Started process (PID=45326) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:40:53.350-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:40:53.352-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:53.351-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:40:53.354-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:40:53.362-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.031 seconds
+[2024-12-07T03:43:44.263-0300] {processor.py:186} INFO - Started process (PID=45812) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:43:44.264-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:43:44.266-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:44.265-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:43:44.268-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:43:44.277-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2024-12-07T03:47:31.491-0300] {processor.py:186} INFO - Started process (PID=46574) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:47:31.586-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:47:31.588-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:31.588-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:47:31.590-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:47:31.598-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.112 seconds
+[2024-12-07T03:49:34.951-0300] {processor.py:186} INFO - Started process (PID=46866) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:49:34.953-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:49:34.955-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:34.954-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:49:34.956-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:49:34.965-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2024-12-07T03:51:15.406-0300] {processor.py:186} INFO - Started process (PID=46984) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:51:15.408-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:51:15.411-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:15.411-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:51:15.414-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:51:15.426-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.027 seconds
+[2024-12-07T03:52:01.818-0300] {processor.py:186} INFO - Started process (PID=47045) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:52:01.830-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:52:01.832-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:01.832-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:52:01.834-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:52:01.845-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.034 seconds
+[2024-12-07T03:52:42.499-0300] {processor.py:186} INFO - Started process (PID=47131) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:52:42.504-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:52:42.506-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:42.505-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:52:42.509-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:52:42.517-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-12-07T03:53:43.778-0300] {processor.py:186} INFO - Started process (PID=47258) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:53:43.910-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:53:43.912-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:43.912-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:53:43.914-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:53:43.924-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.151 seconds
+[2024-12-07T03:54:52.110-0300] {processor.py:186} INFO - Started process (PID=47362) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:54:52.114-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:54:52.116-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:52.116-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:54:52.118-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:54:52.131-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.027 seconds
+[2024-12-07T03:55:58.843-0300] {processor.py:186} INFO - Started process (PID=47534) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:55:58.899-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:55:58.901-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:58.901-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:55:58.903-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:55:58.913-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.075 seconds
+[2024-12-07T03:56:49.965-0300] {processor.py:186} INFO - Started process (PID=47612) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:56:49.987-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:56:49.988-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:49.988-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:56:49.991-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:56:50.000-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2024-12-07T03:57:29.719-0300] {processor.py:186} INFO - Started process (PID=47687) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:57:29.727-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:57:29.728-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:29.728-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:57:29.730-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:57:29.739-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.026 seconds
+[2024-12-07T03:58:08.208-0300] {processor.py:186} INFO - Started process (PID=47742) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:58:08.213-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T03:58:08.215-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:08.214-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:58:08.217-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T03:58:08.227-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.024 seconds
+[2024-12-07T04:00:04.826-0300] {processor.py:186} INFO - Started process (PID=48011) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:00:04.839-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:00:04.841-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:04.841-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:00:04.844-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:00:04.856-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.036 seconds
+[2024-12-07T04:01:19.011-0300] {processor.py:186} INFO - Started process (PID=48159) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:01:19.024-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:01:19.026-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:19.026-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:01:19.028-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:01:19.037-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.031 seconds
+[2024-12-07T04:06:47.701-0300] {processor.py:186} INFO - Started process (PID=49090) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:06:47.743-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:06:47.744-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:47.743-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:06:47.746-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:06:47.755-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.060 seconds
+[2024-12-07T04:08:23.957-0300] {processor.py:186} INFO - Started process (PID=49306) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:08:23.961-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:08:23.963-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:23.962-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:08:23.965-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:08:23.975-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.024 seconds
+[2024-12-07T04:09:33.294-0300] {processor.py:186} INFO - Started process (PID=49441) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:09:33.307-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:09:33.308-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:33.308-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:09:33.311-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:09:33.320-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.033 seconds
+[2024-12-07T04:10:28.014-0300] {processor.py:186} INFO - Started process (PID=49512) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:10:28.031-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:10:28.032-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:28.032-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:10:28.034-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:10:28.043-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.036 seconds
+[2024-12-07T04:11:35.693-0300] {processor.py:186} INFO - Started process (PID=49613) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:11:35.707-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:11:35.709-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:35.708-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:11:35.712-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:11:35.723-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.036 seconds
+[2024-12-07T04:12:27.561-0300] {processor.py:186} INFO - Started process (PID=49692) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:12:27.652-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:12:27.654-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:27.653-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:12:27.657-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:12:27.669-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.114 seconds
+[2024-12-07T04:13:42.084-0300] {processor.py:186} INFO - Started process (PID=49839) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:13:42.175-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:13:42.177-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:42.176-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:13:42.179-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:13:42.189-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.111 seconds
+[2024-12-07T04:14:21.410-0300] {processor.py:186} INFO - Started process (PID=49930) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:14:21.412-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:14:21.413-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:21.413-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:14:21.416-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:14:21.424-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2024-12-07T04:15:01.047-0300] {processor.py:186} INFO - Started process (PID=49983) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:15:01.052-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:15:01.053-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:01.053-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:15:01.055-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:15:01.065-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-12-07T04:15:40.413-0300] {processor.py:186} INFO - Started process (PID=50039) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:15:40.421-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T04:15:40.422-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:40.422-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:15:40.424-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T04:15:40.433-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.025 seconds

@@ -1,0 +1,337 @@
+[2024-12-07T01:52:13.336-0300] {processor.py:186} INFO - Started process (PID=33990) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T01:52:13.337-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T01:52:13.339-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:13.338-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T01:52:13.346-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T01:52:17.025-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:17.025-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-12-07T01:52:18.468-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:18.468-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-12-07T01:52:19.801-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:19.800-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-12-07T01:52:21.538-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:21.538-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2024-12-07T01:52:22.574-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:22.574-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2024-12-07T01:52:23.955-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:23.954-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2024-12-07T01:52:25.768-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:25.768-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2024-12-07T01:52:25.769-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:25.769-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T01:52:25.788-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:25.788-0300] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2024-12-07T01:52:25.803-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:52:25.802-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T01:52:27.200-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 13.869 seconds
+[2024-12-07T02:07:42.921-0300] {processor.py:186} INFO - Started process (PID=35340) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:07:42.923-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:07:42.925-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:42.924-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:07:42.932-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:07:42.947-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:42.947-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:07:42.964-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:42.964-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:07:43.021-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.104 seconds
+[2024-12-07T02:11:08.112-0300] {processor.py:186} INFO - Started process (PID=35894) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:11:08.123-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:11:08.125-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:11:08.125-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:11:08.132-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:11:08.147-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:11:08.147-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:11:08.165-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:11:08.165-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:11:08.228-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2024-12-07T02:12:41.211-0300] {processor.py:186} INFO - Started process (PID=36008) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:12:41.219-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:12:41.222-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:41.222-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:12:41.231-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:12:41.246-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:41.246-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:12:41.264-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:41.264-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:12:41.339-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.136 seconds
+[2024-12-07T02:15:21.054-0300] {processor.py:186} INFO - Started process (PID=36358) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:15:21.176-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:15:21.178-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:21.178-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:15:21.185-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:15:21.202-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:21.201-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:15:21.221-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:15:21.221-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:15:21.749-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.703 seconds
+[2024-12-07T02:17:03.300-0300] {processor.py:186} INFO - Started process (PID=36525) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:17:03.360-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:17:03.362-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:03.362-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:17:03.369-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:17:03.383-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:03.383-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:17:03.399-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:03.399-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:17:03.495-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.203 seconds
+[2024-12-07T02:18:31.709-0300] {processor.py:186} INFO - Started process (PID=36677) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:18:31.792-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:18:31.794-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:31.793-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:18:31.801-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:18:31.816-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:31.815-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:18:31.835-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:31.835-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:18:31.923-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.222 seconds
+[2024-12-07T02:31:04.309-0300] {processor.py:186} INFO - Started process (PID=37973) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:31:04.310-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:31:04.312-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:31:04.311-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:31:04.320-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:31:04.342-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:31:04.342-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:31:04.360-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:31:04.359-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:31:04.439-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.135 seconds
+[2024-12-07T02:33:34.705-0300] {processor.py:186} INFO - Started process (PID=38176) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:33:34.730-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:33:34.732-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:34.732-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:33:34.740-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:33:34.755-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:34.754-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:33:34.771-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:34.771-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:33:34.840-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.140 seconds
+[2024-12-07T02:35:48.525-0300] {processor.py:186} INFO - Started process (PID=38410) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:35:48.548-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:35:48.552-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:35:48.551-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:35:48.565-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:35:48.590-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:35:48.589-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:35:48.619-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:35:48.619-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:35:49.564-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 1.048 seconds
+[2024-12-07T02:37:06.927-0300] {processor.py:186} INFO - Started process (PID=38615) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:37:06.939-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:37:06.941-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:37:06.941-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:37:06.948-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:37:06.963-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:37:06.963-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:37:06.980-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:37:06.980-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:37:07.124-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.202 seconds
+[2024-12-07T02:38:49.089-0300] {processor.py:186} INFO - Started process (PID=38773) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:38:49.115-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:38:49.117-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:49.116-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:38:49.124-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:38:49.140-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:49.140-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:38:49.157-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:49.157-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:38:50.099-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 1.014 seconds
+[2024-12-07T02:40:23.190-0300] {processor.py:186} INFO - Started process (PID=38881) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:40:23.212-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:40:23.214-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:23.214-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:40:23.222-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:40:23.238-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:23.237-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:40:23.256-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:23.256-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:40:23.414-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.229 seconds
+[2024-12-07T02:41:15.545-0300] {processor.py:186} INFO - Started process (PID=38970) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:41:15.559-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:41:15.561-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:15.560-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:41:15.568-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:41:15.587-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:15.587-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:41:15.613-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:15.612-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:41:15.681-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.142 seconds
+[2024-12-07T02:44:42.997-0300] {processor.py:186} INFO - Started process (PID=39696) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:44:42.999-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:44:43.001-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:43.001-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:44:43.008-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:44:43.026-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:43.025-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:44:43.042-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:43.042-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:44:43.101-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds
+[2024-12-07T02:46:23.170-0300] {processor.py:186} INFO - Started process (PID=39991) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:46:23.181-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:46:23.183-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:23.183-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:46:23.194-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:46:23.217-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:23.216-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:46:23.243-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:23.243-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:46:23.301-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.138 seconds
+[2024-12-07T02:47:44.016-0300] {processor.py:186} INFO - Started process (PID=40235) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:47:44.017-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:47:44.019-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:44.019-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:47:44.027-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:47:44.044-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:44.044-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:47:44.063-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:44.062-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:47:44.679-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.668 seconds
+[2024-12-07T02:49:10.541-0300] {processor.py:186} INFO - Started process (PID=40521) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:49:10.544-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:49:10.546-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:10.545-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:49:10.553-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:49:10.570-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:10.570-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:49:10.587-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:10.587-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:49:12.242-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 1.706 seconds
+[2024-12-07T02:50:04.358-0300] {processor.py:186} INFO - Started process (PID=40789) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:50:04.382-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:50:04.383-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:04.383-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:50:04.391-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:50:04.408-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:04.408-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:50:04.426-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:04.425-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:50:04.485-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.133 seconds
+[2024-12-07T02:51:21.943-0300] {processor.py:186} INFO - Started process (PID=40965) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:51:22.084-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T02:51:22.086-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:51:22.086-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:51:22.093-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T02:51:22.109-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:51:22.108-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:51:22.128-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:51:22.128-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:51:24.225-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 2.291 seconds
+[2024-12-07T03:19:49.642-0300] {processor.py:186} INFO - Started process (PID=42645) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:19:49.661-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:19:49.663-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:49.662-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:19:49.669-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:19:50.221-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:50.220-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:19:50.247-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:50.246-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:19:52.037-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 2.402 seconds
+[2024-12-07T03:23:10.330-0300] {processor.py:186} INFO - Started process (PID=42837) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:23:10.574-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:23:10.575-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:23:10.575-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:23:10.582-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:23:10.597-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:23:10.597-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:23:10.612-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:23:10.612-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:23:12.135-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 1.810 seconds
+[2024-12-07T03:26:49.855-0300] {processor.py:186} INFO - Started process (PID=43432) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:26:49.905-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:26:49.907-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:49.907-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:26:49.915-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:26:49.934-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:49.934-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:26:49.965-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:49.965-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:26:50.458-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.609 seconds
+[2024-12-07T03:29:26.674-0300] {processor.py:186} INFO - Started process (PID=43825) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:29:26.692-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:29:26.694-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:26.694-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:29:26.703-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:29:26.722-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:26.722-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:29:26.751-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:26.750-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:29:26.839-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.170 seconds
+[2024-12-07T03:34:04.093-0300] {processor.py:186} INFO - Started process (PID=44560) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:34:04.114-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:34:04.116-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:34:04.115-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:34:04.122-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:34:04.138-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:34:04.138-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:34:04.155-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:34:04.155-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:34:04.223-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.136 seconds
+[2024-12-07T03:35:37.633-0300] {processor.py:186} INFO - Started process (PID=44715) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:35:37.646-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:35:37.647-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:37.647-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:35:37.654-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:35:37.669-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:37.668-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:35:37.685-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:37.685-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:35:37.742-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.114 seconds
+[2024-12-07T03:37:43.339-0300] {processor.py:186} INFO - Started process (PID=44949) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:37:43.365-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:37:43.367-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:43.366-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:37:43.373-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:37:43.387-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:43.387-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:37:43.404-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:43.404-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:37:43.615-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.283 seconds
+[2024-12-07T03:38:59.586-0300] {processor.py:186} INFO - Started process (PID=45109) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:38:59.599-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:38:59.601-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:59.600-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:38:59.608-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:38:59.624-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:59.624-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:38:59.641-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:59.641-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:38:59.698-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.119 seconds
+[2024-12-07T03:39:55.810-0300] {processor.py:186} INFO - Started process (PID=45203) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:39:55.821-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:39:55.822-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:55.821-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:39:55.828-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:39:55.844-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:55.843-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:39:55.861-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:55.860-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:39:56.007-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.202 seconds
+[2024-12-07T03:41:12.857-0300] {processor.py:186} INFO - Started process (PID=45383) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:41:12.858-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:41:12.859-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:41:12.859-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:41:12.866-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:41:12.881-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:41:12.881-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:41:12.898-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:41:12.897-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:41:12.956-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.105 seconds
+[2024-12-07T03:44:01.150-0300] {processor.py:186} INFO - Started process (PID=45840) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:44:01.152-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:44:01.153-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:44:01.153-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:44:01.161-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:44:01.177-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:44:01.177-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:44:01.196-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:44:01.195-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:44:01.255-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.110 seconds
+[2024-12-07T03:48:08.584-0300] {processor.py:186} INFO - Started process (PID=46637) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:48:08.619-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:48:08.621-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:48:08.621-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:48:08.629-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:48:08.644-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:48:08.644-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:48:08.662-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:48:08.662-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:48:09.412-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.833 seconds
+[2024-12-07T03:50:12.554-0300] {processor.py:186} INFO - Started process (PID=46922) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:50:12.576-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:50:12.579-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:50:12.579-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:50:12.586-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:50:12.605-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:50:12.605-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:50:12.624-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:50:12.624-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:50:13.475-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.926 seconds
+[2024-12-07T03:51:32.431-0300] {processor.py:186} INFO - Started process (PID=46999) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:51:32.438-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:51:32.441-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:32.440-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:51:32.448-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:51:32.463-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:32.463-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:32.480-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:32.479-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:51:32.539-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.113 seconds
+[2024-12-07T03:52:53.884-0300] {processor.py:186} INFO - Started process (PID=47155) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:52:53.904-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:52:53.907-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:53.906-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:52:53.914-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:52:53.929-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:53.929-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:52:53.946-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:53.946-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:52:54.008-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.129 seconds
+[2024-12-07T03:54:12.965-0300] {processor.py:186} INFO - Started process (PID=47299) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:54:12.966-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:54:12.968-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:12.968-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:54:12.976-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:54:12.991-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:12.990-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:54:13.007-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:13.007-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:54:13.065-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.105 seconds
+[2024-12-07T03:55:15.627-0300] {processor.py:186} INFO - Started process (PID=47430) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:55:15.794-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:55:15.797-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:15.797-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:55:15.807-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:55:15.827-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:15.826-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:55:15.844-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:15.844-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:55:17.207-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 1.584 seconds
+[2024-12-07T03:57:04.617-0300] {processor.py:186} INFO - Started process (PID=47646) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:57:04.636-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:57:04.639-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:04.638-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:57:04.646-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:57:04.661-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:04.660-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:57:04.679-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:04.679-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:57:04.748-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.136 seconds
+[2024-12-07T03:58:22.108-0300] {processor.py:186} INFO - Started process (PID=47801) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:58:22.245-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T03:58:22.250-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:22.249-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:58:22.266-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T03:58:22.295-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:22.295-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:58:22.330-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:22.329-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:58:22.447-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.346 seconds
+[2024-12-07T04:00:20.722-0300] {processor.py:186} INFO - Started process (PID=48049) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:00:20.799-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:00:20.801-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:20.801-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:00:20.809-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:00:20.824-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:20.824-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:00:20.842-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:20.842-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:00:21.140-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.424 seconds
+[2024-12-07T04:01:34.915-0300] {processor.py:186} INFO - Started process (PID=48210) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:01:34.929-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:01:34.932-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:34.931-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:01:34.945-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:01:34.965-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:34.964-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:01:34.988-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:34.988-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:01:35.051-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.144 seconds
+[2024-12-07T04:07:22.653-0300] {processor.py:186} INFO - Started process (PID=49127) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:07:22.821-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:07:22.822-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:07:22.822-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:07:22.828-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:07:22.845-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:07:22.845-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:07:22.861-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:07:22.860-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:07:24.337-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 1.689 seconds
+[2024-12-07T04:08:53.208-0300] {processor.py:186} INFO - Started process (PID=49379) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:08:53.331-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:08:53.332-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:53.332-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:08:53.339-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:08:53.354-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:53.354-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:08:53.374-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:53.374-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:08:53.786-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.583 seconds
+[2024-12-07T04:10:59.659-0300] {processor.py:186} INFO - Started process (PID=49564) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:10:59.703-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:10:59.705-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:59.705-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:10:59.712-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:10:59.726-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:59.726-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:10:59.741-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:59.741-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:11:00.388-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.735 seconds
+[2024-12-07T04:12:43.214-0300] {processor.py:186} INFO - Started process (PID=49716) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:12:43.224-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:12:43.226-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:43.225-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:12:43.235-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:12:43.257-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:43.257-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:12:43.283-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:43.283-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:12:43.368-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.162 seconds
+[2024-12-07T04:13:59.888-0300] {processor.py:186} INFO - Started process (PID=49870) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:13:59.896-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:13:59.897-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:59.897-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:13:59.903-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:13:59.918-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:59.918-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:13:59.934-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:59.934-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:13:59.994-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.111 seconds
+[2024-12-07T04:15:17.454-0300] {processor.py:186} INFO - Started process (PID=50001) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:15:17.465-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-07T04:15:17.467-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:17.467-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:15:17.476-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-07T04:15:17.491-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:17.490-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:15:17.507-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:17.507-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:15:17.572-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.123 seconds

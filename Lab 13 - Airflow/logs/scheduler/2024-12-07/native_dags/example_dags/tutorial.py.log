@@ -1,0 +1,428 @@
+[2024-12-07T01:47:55.360-0300] {processor.py:186} INFO - Started process (PID=33432) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:47:55.361-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T01:47:55.363-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.362-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:47:55.371-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:47:55.553-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.553-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-12-07T01:47:55.598-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.598-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-12-07T01:47:55.643-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.643-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial
+[2024-12-07T01:47:55.734-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.734-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2024-12-07T01:47:55.793-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.792-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial
+[2024-12-07T01:47:55.862-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.861-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2024-12-07T01:47:55.940-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.939-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial
+[2024-12-07T01:47:55.940-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:55.940-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T01:47:56.030-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:56.030-0300] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2024-12-07T01:47:56.094-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:47:56.094-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T01:47:56.161-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.806 seconds
+[2024-12-07T01:49:38.543-0300] {processor.py:186} INFO - Started process (PID=33677) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:49:38.549-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T01:49:38.551-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:49:38.551-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:49:38.560-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:49:38.579-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:49:38.579-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T01:49:38.596-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:49:38.596-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T01:49:40.135-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.597 seconds
+[2024-12-07T01:50:32.220-0300] {processor.py:186} INFO - Started process (PID=33765) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:50:32.232-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T01:50:32.235-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:32.235-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:50:32.243-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:50:32.263-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:32.263-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T01:50:32.280-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:32.280-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T01:50:32.345-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.129 seconds
+[2024-12-07T01:50:52.484-0300] {processor.py:186} INFO - Started process (PID=33828) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:50:52.495-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T01:50:52.497-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:52.496-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:50:52.505-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T01:50:52.525-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:52.524-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T01:50:52.541-0300] {logging_mixin.py:190} INFO - [2024-12-07T01:50:52.541-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T01:50:52.626-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.147 seconds
+[2024-12-07T02:07:27.448-0300] {processor.py:186} INFO - Started process (PID=35253) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:07:27.449-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:07:27.451-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:27.451-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:07:27.460-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:07:27.479-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:27.479-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:07:27.495-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:07:27.495-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:07:27.549-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.107 seconds
+[2024-12-07T02:10:48.166-0300] {processor.py:186} INFO - Started process (PID=35817) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:10:48.168-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:10:48.169-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:48.169-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:10:48.176-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:10:48.190-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:48.189-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:10:48.206-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:10:48.206-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:10:48.288-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.128 seconds
+[2024-12-07T02:12:25.392-0300] {processor.py:186} INFO - Started process (PID=35993) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:12:25.397-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:12:25.399-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:25.399-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:12:25.409-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:12:25.423-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:25.423-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:12:25.442-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:12:25.442-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:12:25.500-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2024-12-07T02:13:52.109-0300] {processor.py:186} INFO - Started process (PID=36192) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:13:52.137-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:13:52.141-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:52.140-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:13:52.150-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:13:52.165-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:52.165-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:13:52.184-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:13:52.183-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:13:52.253-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.153 seconds
+[2024-12-07T02:14:40.483-0300] {processor.py:186} INFO - Started process (PID=36296) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:14:40.496-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:14:40.498-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:14:40.497-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:14:40.504-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:14:40.517-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:14:40.517-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:14:40.536-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:14:40.536-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:14:40.593-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2024-12-07T02:15:59.997-0300] {processor.py:186} INFO - Started process (PID=36446) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:16:00.003-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:16:00.005-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:00.005-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:16:00.011-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:16:00.024-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:00.024-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:16:00.041-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:00.041-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:16:00.103-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2024-12-07T02:16:51.086-0300] {processor.py:186} INFO - Started process (PID=36511) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:16:51.112-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:16:51.114-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:51.113-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:16:51.120-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:16:51.134-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:51.133-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:16:51.150-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:16:51.150-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:16:51.221-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.142 seconds
+[2024-12-07T02:17:36.672-0300] {processor.py:186} INFO - Started process (PID=36596) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:17:36.690-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:17:36.692-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:36.692-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:17:36.699-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:17:36.712-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:36.712-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:17:36.733-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:17:36.733-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:17:36.799-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.133 seconds
+[2024-12-07T02:18:20.347-0300] {processor.py:186} INFO - Started process (PID=36659) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:18:20.348-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:18:20.351-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:20.351-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:18:20.362-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:18:20.380-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:20.380-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:18:20.408-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:18:20.407-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:18:20.491-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.153 seconds
+[2024-12-07T02:30:40.210-0300] {processor.py:186} INFO - Started process (PID=37870) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:30:40.246-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:30:40.248-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:30:40.248-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:30:40.259-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:30:40.319-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:30:40.318-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:30:40.342-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:30:40.342-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:30:40.398-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.195 seconds
+[2024-12-07T02:33:17.690-0300] {processor.py:186} INFO - Started process (PID=38132) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:33:17.691-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:33:17.694-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:17.694-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:33:17.702-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:33:17.717-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:17.717-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:33:17.735-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:33:17.735-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:33:17.796-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.112 seconds
+[2024-12-07T02:34:46.425-0300] {processor.py:186} INFO - Started process (PID=38340) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:34:46.471-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:34:46.473-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:34:46.472-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:34:46.480-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:34:46.493-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:34:46.493-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:34:46.510-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:34:46.510-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:34:47.484-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.064 seconds
+[2024-12-07T02:36:49.683-0300] {processor.py:186} INFO - Started process (PID=38588) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:36:49.684-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:36:49.686-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:49.686-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:36:49.693-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:36:49.707-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:49.706-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:36:49.724-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:36:49.724-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:36:49.788-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.110 seconds
+[2024-12-07T02:38:21.335-0300] {processor.py:186} INFO - Started process (PID=38735) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:38:21.346-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:38:21.348-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:21.347-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:38:21.355-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:38:21.368-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:21.368-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:38:21.385-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:38:21.385-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:38:21.874-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.544 seconds
+[2024-12-07T02:40:08.298-0300] {processor.py:186} INFO - Started process (PID=38851) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:40:08.350-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:40:08.352-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:08.352-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:40:08.360-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:40:08.373-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:08.373-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:40:08.390-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:40:08.390-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:40:08.542-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.249 seconds
+[2024-12-07T02:41:00.856-0300] {processor.py:186} INFO - Started process (PID=38952) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:41:00.861-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:41:00.863-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:00.862-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:41:00.870-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:41:00.884-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:00.883-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:41:00.902-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:41:00.901-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:41:00.968-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2024-12-07T02:42:13.982-0300] {processor.py:186} INFO - Started process (PID=39083) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:42:13.995-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:42:13.996-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:13.996-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:42:14.004-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:42:14.017-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:14.017-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:42:14.034-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:14.034-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:42:14.097-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2024-12-07T02:42:57.925-0300] {processor.py:186} INFO - Started process (PID=39215) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:42:57.926-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:42:57.928-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:57.927-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:42:57.937-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:42:57.955-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:57.955-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:42:57.973-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:42:57.973-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:42:59.061-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.142 seconds
+[2024-12-07T02:44:25.547-0300] {processor.py:186} INFO - Started process (PID=39673) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:44:25.699-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:44:25.701-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:25.701-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:44:25.710-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:44:25.731-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:25.731-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:44:25.750-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:44:25.750-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:44:27.775-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 2.234 seconds
+[2024-12-07T02:45:38.511-0300] {processor.py:186} INFO - Started process (PID=39828) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:45:38.515-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:45:38.517-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:38.517-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:45:38.524-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:45:38.538-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:38.538-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:45:38.555-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:45:38.555-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:45:38.689-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.183 seconds
+[2024-12-07T02:46:09.828-0300] {processor.py:186} INFO - Started process (PID=39971) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:46:09.830-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:46:09.831-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:09.831-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:46:09.840-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:46:09.858-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:09.858-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:46:09.876-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:46:09.876-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:46:09.931-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.108 seconds
+[2024-12-07T02:47:18.558-0300] {processor.py:186} INFO - Started process (PID=40192) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:47:18.574-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:47:18.576-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:18.576-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:47:18.586-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:47:18.604-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:18.604-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:47:18.622-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:47:18.622-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:47:19.114-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.561 seconds
+[2024-12-07T02:48:41.322-0300] {processor.py:186} INFO - Started process (PID=40419) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:48:41.351-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:48:41.353-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:48:41.353-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:48:41.362-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:48:41.380-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:48:41.380-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:48:41.397-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:48:41.397-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:48:41.883-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.565 seconds
+[2024-12-07T02:49:46.070-0300] {processor.py:186} INFO - Started process (PID=40655) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:49:46.071-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:49:46.073-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:46.072-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:49:46.081-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:49:46.100-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:46.100-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:49:46.118-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:49:46.118-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:49:46.843-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.778 seconds
+[2024-12-07T02:50:59.484-0300] {processor.py:186} INFO - Started process (PID=40937) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:50:59.499-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T02:50:59.501-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:59.501-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:50:59.510-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T02:50:59.525-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:59.525-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T02:50:59.543-0300] {logging_mixin.py:190} INFO - [2024-12-07T02:50:59.543-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T02:50:59.603-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.126 seconds
+[2024-12-07T03:19:09.030-0300] {processor.py:186} INFO - Started process (PID=42577) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:19:09.110-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:19:09.111-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:09.111-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:19:09.117-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:19:09.137-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:09.137-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:19:09.153-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:09.152-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:19:09.221-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.196 seconds
+[2024-12-07T03:22:41.704-0300] {processor.py:186} INFO - Started process (PID=42808) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:22:41.740-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:22:41.741-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:41.741-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:22:41.748-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:22:41.763-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:41.762-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:22:41.779-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:41.779-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:22:42.342-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.643 seconds
+[2024-12-07T03:26:03.466-0300] {processor.py:186} INFO - Started process (PID=43379) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:26:03.518-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:26:03.520-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:03.520-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:26:03.529-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:26:03.548-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:03.547-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:26:03.564-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:26:03.564-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:26:05.162-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.701 seconds
+[2024-12-07T03:29:09.931-0300] {processor.py:186} INFO - Started process (PID=43793) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:29:09.951-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:29:09.953-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:09.952-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:29:09.960-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:29:09.974-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:09.974-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:29:09.993-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:09.993-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:29:10.066-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.143 seconds
+[2024-12-07T03:32:30.290-0300] {processor.py:186} INFO - Started process (PID=44134) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:32:30.311-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:32:30.313-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:32:30.313-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:32:30.319-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:32:30.339-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:32:30.338-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:32:30.354-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:32:30.354-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:32:31.703-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.419 seconds
+[2024-12-07T03:35:23.606-0300] {processor.py:186} INFO - Started process (PID=44702) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:35:23.643-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:35:23.645-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:23.644-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:35:23.651-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:35:23.664-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:23.664-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:35:23.680-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:23.680-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:35:23.787-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.187 seconds
+[2024-12-07T03:36:16.670-0300] {processor.py:186} INFO - Started process (PID=44825) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:36:16.687-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:36:16.688-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:16.688-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:36:16.693-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:36:16.708-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:16.708-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:36:16.727-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:16.727-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:36:17.791-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.127 seconds
+[2024-12-07T03:37:27.659-0300] {processor.py:186} INFO - Started process (PID=44929) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:37:27.664-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:37:27.665-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:27.665-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:37:27.672-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:37:27.686-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:27.686-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:37:27.702-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:27.702-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:37:27.772-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2024-12-07T03:38:22.428-0300] {processor.py:186} INFO - Started process (PID=45023) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:38:22.436-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:38:22.438-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:22.437-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:38:22.444-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:38:22.458-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:22.457-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:38:22.473-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:22.473-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:38:22.826-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.404 seconds
+[2024-12-07T03:39:41.485-0300] {processor.py:186} INFO - Started process (PID=45185) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:39:41.499-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:39:41.500-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:41.499-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:39:41.506-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:39:41.519-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:41.519-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:39:41.538-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:41.538-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:39:41.596-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-12-07T03:40:54.799-0300] {processor.py:186} INFO - Started process (PID=45328) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:40:54.806-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:40:54.807-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:54.807-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:40:54.813-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:40:54.828-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:54.828-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:40:54.846-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:54.846-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:40:54.908-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-12-07T03:43:45.844-0300] {processor.py:186} INFO - Started process (PID=45814) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:43:45.852-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:43:45.854-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:45.854-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:43:45.863-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:43:45.880-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:45.880-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:43:45.898-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:45.898-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:43:45.975-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.135 seconds
+[2024-12-07T03:47:34.801-0300] {processor.py:186} INFO - Started process (PID=46576) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:47:34.820-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:47:34.822-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:34.822-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:47:34.830-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:47:34.843-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:34.843-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:47:34.863-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:34.862-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:47:36.010-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.214 seconds
+[2024-12-07T03:49:38.262-0300] {processor.py:186} INFO - Started process (PID=46868) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:49:38.402-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:49:38.404-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:38.404-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:49:38.411-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:49:38.424-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:38.424-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:49:38.442-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:38.442-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:49:39.966-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.709 seconds
+[2024-12-07T03:51:17.150-0300] {processor.py:186} INFO - Started process (PID=46986) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:51:17.174-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:51:17.176-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:17.176-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:51:17.186-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:51:17.200-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:17.200-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:17.217-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:17.217-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:51:17.290-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.145 seconds
+[2024-12-07T03:52:03.514-0300] {processor.py:186} INFO - Started process (PID=47047) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:52:03.519-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:52:03.522-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:03.521-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:52:03.531-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:52:03.546-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:03.545-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:52:03.566-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:03.566-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:52:03.633-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.125 seconds
+[2024-12-07T03:53:46.706-0300] {processor.py:186} INFO - Started process (PID=47262) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:53:46.735-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:53:46.737-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:46.737-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:53:46.745-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:53:46.758-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:46.758-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:53:46.775-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:46.775-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:53:47.229-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.528 seconds
+[2024-12-07T03:54:54.381-0300] {processor.py:186} INFO - Started process (PID=47366) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:54:54.392-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:54:54.394-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:54.394-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:54:54.401-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:54:54.413-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:54.413-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:54:54.432-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:54.432-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:54:54.494-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.119 seconds
+[2024-12-07T03:56:01.031-0300] {processor.py:186} INFO - Started process (PID=47536) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:56:01.043-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:56:01.045-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:01.045-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:56:01.053-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:56:01.069-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:01.068-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:56:01.086-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:01.086-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:56:01.576-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.550 seconds
+[2024-12-07T03:56:52.352-0300] {processor.py:186} INFO - Started process (PID=47630) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:56:52.422-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:56:52.424-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:52.424-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:56:52.433-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:56:52.451-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:52.450-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:56:52.468-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:52.468-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:56:52.946-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.602 seconds
+[2024-12-07T03:58:09.591-0300] {processor.py:186} INFO - Started process (PID=47748) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:58:09.602-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T03:58:09.603-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:09.603-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:58:09.611-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T03:58:09.623-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:09.623-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:58:09.640-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:09.640-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T03:58:09.695-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.110 seconds
+[2024-12-07T04:00:06.710-0300] {processor.py:186} INFO - Started process (PID=48031) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:00:06.721-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:00:06.724-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:06.724-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:00:06.732-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:00:06.747-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:06.747-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:00:06.766-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:06.766-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:00:06.825-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2024-12-07T04:01:21.248-0300] {processor.py:186} INFO - Started process (PID=48166) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:01:21.258-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:01:21.261-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:21.260-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:01:21.272-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:01:21.292-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:21.292-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:01:21.319-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:21.318-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:01:21.405-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.165 seconds
+[2024-12-07T04:06:51.364-0300] {processor.py:186} INFO - Started process (PID=49099) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:06:51.401-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:06:51.402-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:51.402-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:06:51.408-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:06:51.431-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:51.431-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:06:51.446-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:51.446-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:06:52.663-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.305 seconds
+[2024-12-07T04:08:25.295-0300] {processor.py:186} INFO - Started process (PID=49308) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:08:25.318-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:08:25.319-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:25.318-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:08:25.326-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:08:25.339-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:25.339-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:08:25.355-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:25.355-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:08:26.768-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.479 seconds
+[2024-12-07T04:09:35.062-0300] {processor.py:186} INFO - Started process (PID=49443) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:09:35.070-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:09:35.072-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:35.072-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:09:35.080-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:09:35.097-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:35.097-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:09:35.121-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:35.120-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:09:35.180-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.125 seconds
+[2024-12-07T04:10:30.915-0300] {processor.py:186} INFO - Started process (PID=49514) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:10:30.942-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:10:30.944-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:30.943-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:10:30.950-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:10:30.965-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:30.965-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:10:30.983-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:30.982-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:10:31.381-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.473 seconds
+[2024-12-07T04:11:37.467-0300] {processor.py:186} INFO - Started process (PID=49615) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:11:37.473-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:11:37.475-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:37.474-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:11:37.481-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:11:37.497-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:37.497-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:11:37.514-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:37.514-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:11:37.573-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2024-12-07T04:12:29.997-0300] {processor.py:186} INFO - Started process (PID=49703) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:12:30.010-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:12:30.011-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:30.011-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:12:30.017-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:12:30.030-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:30.030-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:12:30.046-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:30.045-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:12:30.107-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-12-07T04:13:44.675-0300] {processor.py:186} INFO - Started process (PID=49853) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:13:44.686-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:13:44.688-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:44.688-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:13:44.696-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:13:44.716-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:44.716-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:13:44.742-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:44.741-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:13:44.810-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.143 seconds
+[2024-12-07T04:15:02.993-0300] {processor.py:186} INFO - Started process (PID=49988) to work on /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:15:02.998-0300] {processor.py:914} INFO - Processing file /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-07T04:15:02.999-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:02.999-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:15:03.005-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-07T04:15:03.019-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:03.019-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:15:03.034-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:03.034-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-07T04:15:03.090-0300] {processor.py:208} INFO - Processing /home/crisu/miniconda3/envs/lab13.1/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.103 seconds

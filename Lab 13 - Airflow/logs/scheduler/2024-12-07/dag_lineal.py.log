@@ -1,0 +1,334 @@
+[2024-12-07T03:19:01.077-0300] {processor.py:186} INFO - Started process (PID=42553) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:19:01.077-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:19:01.078-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:01.078-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:19:03.567-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:19:03.622-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:03.622-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:19:03.630-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:19:03.630-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:19:03.697-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.627 seconds
+[2024-12-07T03:22:26.370-0300] {processor.py:186} INFO - Started process (PID=42781) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:22:26.416-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:22:26.417-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:26.417-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:22:29.204-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:22:29.215-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:29.215-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:22:29.226-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:29.226-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:22:29.394-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:22:29.394-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:22:31.014-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 4.648 seconds
+[2024-12-07T03:24:39.371-0300] {processor.py:186} INFO - Started process (PID=43021) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:24:39.408-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:24:39.410-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:39.410-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:24:41.869-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:24:41.884-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:41.884-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:24:41.893-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:41.893-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:24:42.321-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:24:42.321-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:25:24.849-0300] {processor.py:186} INFO - Started process (PID=43148) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:25:24.889-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:25:24.891-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:24.890-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:25:27.385-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:25:27.400-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:27.400-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:25:27.409-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:27.409-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:25:27.791-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:27.790-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:25:49.667-0300] {processor.py:186} INFO - Started process (PID=43337) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:25:49.824-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:25:49.826-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:49.825-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:25:52.688-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:25:52.706-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:52.706-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:25:52.716-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:52.716-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:25:52.780-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:25:52.779-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:25:54.154-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 4.493 seconds
+[2024-12-07T03:28:58.739-0300] {processor.py:186} INFO - Started process (PID=43765) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:28:58.741-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:28:58.743-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:28:58.743-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:29:01.110-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:29:01.121-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:01.121-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:29:01.131-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:01.130-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:29:01.462-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:29:01.462-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:29:02.353-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.620 seconds
+[2024-12-07T03:30:29.968-0300] {processor.py:186} INFO - Started process (PID=43928) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:30:29.970-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:30:29.972-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:29.971-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:30:32.146-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:32.146-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:30:32.344-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:30:32.358-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:32.357-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:30:32.367-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:30:32.367-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:30:33.789-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.829 seconds
+[2024-12-07T03:35:12.352-0300] {processor.py:186} INFO - Started process (PID=44687) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:35:12.575-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:35:12.576-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:12.576-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:35:14.922-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:35:14.932-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:14.931-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:35:14.940-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:14.940-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:35:15.253-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:35:15.252-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:35:15.985-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.637 seconds
+[2024-12-07T03:36:07.638-0300] {processor.py:186} INFO - Started process (PID=44800) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:36:07.646-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:36:07.648-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:07.647-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:36:09.970-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:09.970-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:36:10.158-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:36:10.169-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:10.169-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:36:10.178-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:36:10.178-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:36:10.240-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.607 seconds
+[2024-12-07T03:37:18.668-0300] {processor.py:186} INFO - Started process (PID=44887) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:37:18.670-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:37:18.672-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:18.672-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:37:21.218-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:37:21.228-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:21.228-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:37:21.237-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:37:21.237-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:37:21.316-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.656 seconds
+[2024-12-07T03:38:12.845-0300] {processor.py:186} INFO - Started process (PID=45004) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:38:12.852-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:38:12.854-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:12.853-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:38:15.411-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:38:15.426-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:15.426-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:38:15.432-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:15.432-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:38:15.444-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:15.444-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:38:16.077-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.237 seconds
+[2024-12-07T03:38:51.777-0300] {processor.py:186} INFO - Started process (PID=45084) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:38:51.785-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:38:51.787-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:51.787-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:38:54.330-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:54.330-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:38:54.387-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:38:54.397-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:54.397-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:38:54.407-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:38:54.407-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:38:54.462-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.693 seconds
+[2024-12-07T03:39:32.187-0300] {processor.py:186} INFO - Started process (PID=45164) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:39:32.196-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:39:32.197-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:32.197-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:39:34.658-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:39:34.670-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:34.670-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:39:34.679-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:34.678-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:39:34.681-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:39:34.681-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:39:35.116-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.936 seconds
+[2024-12-07T03:40:10.898-0300] {processor.py:186} INFO - Started process (PID=45234) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:40:10.900-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:40:10.901-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:10.901-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:40:13.213-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:13.213-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:40:13.272-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:40:13.283-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:13.282-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:40:13.294-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:13.294-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:40:13.356-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.463 seconds
+[2024-12-07T03:40:47.861-0300] {processor.py:186} INFO - Started process (PID=45305) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:40:47.863-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:40:47.865-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:47.864-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:40:50.315-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:40:50.325-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:50.325-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:40:50.334-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:40:50.334-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:40:50.407-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.555 seconds
+[2024-12-07T03:43:38.088-0300] {processor.py:186} INFO - Started process (PID=45774) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:43:38.106-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:43:38.108-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:38.108-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:43:40.296-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:40.296-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:43:40.412-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:43:40.426-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:40.426-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:43:40.435-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:43:40.435-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:43:40.491-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.409 seconds
+[2024-12-07T03:47:21.649-0300] {processor.py:186} INFO - Started process (PID=46554) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:47:21.679-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:47:21.681-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:21.681-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:47:24.027-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:47:24.037-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:24.037-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:47:24.048-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:24.048-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:47:24.428-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:47:24.427-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:47:24.683-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.039 seconds
+[2024-12-07T03:49:26.299-0300] {processor.py:186} INFO - Started process (PID=46853) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:49:26.349-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:49:26.351-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:26.351-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:49:28.756-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:28.756-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:49:28.945-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:49:28.958-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:28.958-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:49:28.971-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:49:28.971-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:49:29.611-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.317 seconds
+[2024-12-07T03:51:07.904-0300] {processor.py:186} INFO - Started process (PID=46970) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:51:07.929-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:51:07.932-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:07.931-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:51:10.661-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:51:10.672-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:10.672-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:10.681-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:10.681-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:51:10.701-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:10.700-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:51:10.778-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.884 seconds
+[2024-12-07T03:51:55.312-0300] {processor.py:186} INFO - Started process (PID=47032) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:51:55.320-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:51:55.322-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:55.322-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:51:57.859-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:51:57.872-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:57.871-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:51:57.883-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:51:57.882-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:51:57.941-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.634 seconds
+[2024-12-07T03:52:35.831-0300] {processor.py:186} INFO - Started process (PID=47095) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:52:35.838-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:52:35.840-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:35.840-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:52:38.542-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:52:38.554-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:38.553-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:52:38.555-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:38.554-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:52:38.565-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:52:38.564-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:52:38.630-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.805 seconds
+[2024-12-07T03:53:35.055-0300] {processor.py:186} INFO - Started process (PID=47199) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:53:35.122-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:53:35.124-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:35.124-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:53:37.534-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:53:37.544-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:37.544-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:53:37.553-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:37.553-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:53:37.731-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:53:37.731-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:53:38.695-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.645 seconds
+[2024-12-07T03:54:45.493-0300] {processor.py:186} INFO - Started process (PID=47349) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:54:45.504-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:54:45.507-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:45.507-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:54:47.946-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:54:47.957-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:47.957-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:54:47.966-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:54:47.966-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:54:48.027-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.541 seconds
+[2024-12-07T03:55:49.575-0300] {processor.py:186} INFO - Started process (PID=47503) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:55:49.648-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:55:49.651-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:49.650-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:55:52.249-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:55:52.261-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:52.261-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:55:52.271-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:52.271-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:55:52.373-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:55:52.373-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:55:53.413-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.843 seconds
+[2024-12-07T03:56:43.326-0300] {processor.py:186} INFO - Started process (PID=47599) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:56:43.332-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:56:43.334-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:43.333-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:56:45.653-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:56:45.665-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:45.664-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:56:45.674-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:56:45.674-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:56:45.745-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.424 seconds
+[2024-12-07T03:57:22.366-0300] {processor.py:186} INFO - Started process (PID=47674) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:57:22.372-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:57:22.374-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:22.374-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:57:24.902-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:57:24.914-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:24.913-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:57:24.925-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:57:24.924-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:57:24.983-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.622 seconds
+[2024-12-07T03:58:01.957-0300] {processor.py:186} INFO - Started process (PID=47725) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:58:01.969-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:58:01.971-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:01.970-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:58:04.288-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:58:04.299-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:04.298-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:58:04.308-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:04.308-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:58:04.370-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.418 seconds
+[2024-12-07T03:58:39.962-0300] {processor.py:186} INFO - Started process (PID=47838) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:58:39.976-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:58:39.978-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:39.978-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:58:42.342-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:42.337-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T03:58:42.923-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:58:42.943-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:42.942-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T03:58:42.963-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:58:42.963-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T03:58:43.037-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.079 seconds
+[2024-12-07T03:59:57.713-0300] {processor.py:186} INFO - Started process (PID=47993) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T03:59:57.723-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T03:59:57.726-0300] {logging_mixin.py:190} INFO - [2024-12-07T03:59:57.726-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:00:00.079-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:00:00.090-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:00.089-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:00:00.099-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:00.099-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:00:00.153-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.447 seconds
+[2024-12-07T04:00:37.025-0300] {processor.py:186} INFO - Started process (PID=48080) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:00:37.033-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:00:37.035-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:37.035-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:00:39.396-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:39.396-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:00:39.639-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:00:39.650-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:39.650-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:00:39.660-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:00:39.660-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:00:39.722-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.704 seconds
+[2024-12-07T04:01:13.832-0300] {processor.py:186} INFO - Started process (PID=48147) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:01:13.838-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:01:13.841-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:13.840-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:01:16.291-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:01:16.305-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:16.305-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:01:16.315-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:01:16.315-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:01:16.374-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.547 seconds
+[2024-12-07T04:02:56.770-0300] {processor.py:186} INFO - Started process (PID=48351) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:02:56.959-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:02:56.961-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:56.961-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:02:59.621-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:02:59.669-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:59.669-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:02:59.965-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:59.964-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:02:59.974-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:02:59.974-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:03:02.264-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 5.499 seconds
+[2024-12-07T04:04:10.348-0300] {processor.py:186} INFO - Started process (PID=48553) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:04:10.359-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:04:10.360-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:04:10.360-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:04:12.898-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:04:12.897-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:04:13.062-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:04:13.080-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:04:13.080-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:04:13.090-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:04:13.090-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:04:13.146-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.804 seconds
+[2024-12-07T04:06:30.382-0300] {processor.py:186} INFO - Started process (PID=49068) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:06:30.473-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:06:30.474-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:30.474-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:06:32.966-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:06:32.981-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:32.981-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:06:32.991-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:32.991-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:06:33.063-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:06:33.063-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:06:34.027-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.653 seconds
+[2024-12-07T04:08:17.518-0300] {processor.py:186} INFO - Started process (PID=49293) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:08:17.529-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:08:17.530-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:17.530-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:08:19.967-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:08:19.978-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:19.978-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:08:19.987-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:08:19.987-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:08:20.043-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.531 seconds
+[2024-12-07T04:09:26.005-0300] {processor.py:186} INFO - Started process (PID=49415) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:09:26.041-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:09:26.042-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:26.042-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:09:28.374-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:28.373-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:09:28.517-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:09:28.528-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:28.527-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:09:28.538-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:09:28.537-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:09:28.625-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.626 seconds
+[2024-12-07T04:10:19.758-0300] {processor.py:186} INFO - Started process (PID=49499) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:10:19.771-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:10:19.772-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:19.772-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:10:22.626-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:10:22.636-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:22.636-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:10:22.642-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:22.637-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:10:22.647-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:10:22.647-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:10:23.586-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 3.833 seconds
+[2024-12-07T04:11:28.265-0300] {processor.py:186} INFO - Started process (PID=49599) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:11:28.284-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:11:28.286-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:28.285-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:11:30.900-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:30.900-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:11:31.022-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:11:31.034-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:31.033-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:11:31.043-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:11:31.043-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:11:31.104-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.845 seconds
+[2024-12-07T04:12:21.230-0300] {processor.py:186} INFO - Started process (PID=49679) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:12:21.239-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:12:21.241-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:21.241-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:12:23.623-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:12:23.633-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:23.632-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:12:23.642-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:23.641-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:12:23.699-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.476 seconds
+[2024-12-07T04:12:58.210-0300] {processor.py:186} INFO - Started process (PID=49737) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:12:58.229-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:12:58.231-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:12:58.230-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:13:00.942-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:13:00.952-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:00.952-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:13:00.962-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:00.961-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:13:01.032-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.830 seconds
+[2024-12-07T04:13:35.409-0300] {processor.py:186} INFO - Started process (PID=49809) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:13:35.423-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:13:35.424-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:35.424-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:13:37.983-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:13:37.992-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:37.992-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:13:38.002-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:13:38.001-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:13:38.058-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.657 seconds
+[2024-12-07T04:14:14.753-0300] {processor.py:186} INFO - Started process (PID=49917) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:14:14.763-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:14:14.764-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:14.764-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:14:17.422-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:17.422-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+[2024-12-07T04:14:17.430-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:14:17.441-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:17.441-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:14:17.452-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:17.452-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:14:17.505-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.758 seconds
+[2024-12-07T04:14:53.992-0300] {processor.py:186} INFO - Started process (PID=49970) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:14:53.996-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:14:53.997-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:53.997-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:14:56.379-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:14:56.389-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:56.389-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:14:56.398-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:14:56.398-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:14:56.481-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.495 seconds
+[2024-12-07T04:15:33.077-0300] {processor.py:186} INFO - Started process (PID=50026) to work on /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:15:33.087-0300] {processor.py:914} INFO - Processing file /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py for tasks to queue
+[2024-12-07T04:15:33.089-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:33.088-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:15:35.615-0300] {processor.py:925} INFO - DAG(s) 'hiring_lineal' retrieved from /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py
+[2024-12-07T04:15:35.625-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:35.625-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T04:15:35.634-0300] {logging_mixin.py:190} INFO - [2024-12-07T04:15:35.633-0300] {dag.py:4180} INFO - Setting next_dagrun for hiring_lineal to None, run_after=None
+[2024-12-07T04:15:35.689-0300] {processor.py:208} INFO - Processing /home/crisu/Universidad/MDS7202-Primavera2024/Lab 13 - Airflow/dags/dag_lineal.py took 2.617 seconds

@@ -1,0 +1,31 @@
+[2024-12-07T02:30:55.314-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T02:30:55.325-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_lineal.download_dataset manual__2024-12-07T05:30:45.798598+00:00 [queued]>
+[2024-12-07T02:30:55.330-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_lineal.download_dataset manual__2024-12-07T05:30:45.798598+00:00 [queued]>
+[2024-12-07T02:30:55.330-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T02:30:55.383-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): download_dataset> on 2024-12-07 05:30:45.798598+00:00
+[2024-12-07T02:30:55.390-0300] {standard_task_runner.py:72} INFO - Started process 37933 to run task
+[2024-12-07T02:30:55.393-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_lineal', 'download_dataset', 'manual__2024-12-07T05:30:45.798598+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/dag_lineal1.py', '--cfg-path', '/tmp/tmpx31xk0vn']
+[2024-12-07T02:30:55.394-0300] {standard_task_runner.py:105} INFO - Job 14: Subtask download_dataset
+[2024-12-07T02:30:55.463-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_lineal.download_dataset manual__2024-12-07T05:30:45.798598+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T02:30:55.630-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_lineal' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T05:30:45.798598+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T05:30:45.798598+00:00'
+[2024-12-07T02:30:55.631-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T02:30:55.631-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T02:30:55.631-0300] {logging_mixin.py:190} INFO - Current task name:download_dataset state:running start_date:2024-12-07 05:30:55.325816+00:00
+[2024-12-07T02:30:55.631-0300] {logging_mixin.py:190} INFO - Dag name:hiring_lineal and current dag run status:running
+[2024-12-07T02:30:55.632-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T02:30:55.632-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-07T02:30:55.633-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_2024-12-07/raw/data_1.csv https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv']
+[2024-12-07T02:30:55.645-0300] {subprocess.py:99} INFO - Output:
+[2024-12-07T02:30:55.652-0300] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-07T02:30:55.652-0300] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-07T02:30:55.767-0300] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 32735  100 32735    0     0   277k      0 --:--:-- --:--:-- --:--:--  277k
+[2024-12-07T02:30:55.769-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-07T02:30:55.826-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T02:30:55.827-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hiring_lineal, task_id=download_dataset, run_id=manual__2024-12-07T05:30:45.798598+00:00, execution_date=20241207T053045, start_date=20241207T053055, end_date=20241207T053055
+[2024-12-07T02:30:55.879-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T02:30:55.880-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T02:30:55.880-0300] {logging_mixin.py:190} INFO - Dag name:hiring_lineal queued_at:2024-12-07 05:30:45.808698+00:00
+[2024-12-07T02:30:55.880-0300] {logging_mixin.py:190} INFO - Task hostname:crisu-VivoBook-S14-X411UF operator:BashOperator
+[2024-12-07T02:30:55.928-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T02:30:55.947-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T02:30:55.993-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,33 @@
+[2024-12-07T02:54:55.120-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T02:54:55.129-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hiring_lineal.gradio_interface manual__2024-12-07T05:53:24.415827+00:00 [queued]>
+[2024-12-07T02:54:55.137-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hiring_lineal.gradio_interface manual__2024-12-07T05:53:24.415827+00:00 [queued]>
+[2024-12-07T02:54:55.137-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T02:54:55.663-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): gradio_interface> on 2024-12-07 05:53:24.415827+00:00
+[2024-12-07T02:54:55.670-0300] {standard_task_runner.py:72} INFO - Started process 41385 to run task
+[2024-12-07T02:54:55.672-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hiring_lineal', 'gradio_interface', 'manual__2024-12-07T05:53:24.415827+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/dag_lineal1.py', '--cfg-path', '/tmp/tmpcdo361mr']
+[2024-12-07T02:54:55.673-0300] {standard_task_runner.py:105} INFO - Job 36: Subtask gradio_interface
+[2024-12-07T02:54:56.824-0300] {task_command.py:467} INFO - Running <TaskInstance: hiring_lineal.gradio_interface manual__2024-12-07T05:53:24.415827+00:00 [running]> on host crisu-VivoBook-S14-X411UF
+[2024-12-07T02:54:59.780-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hiring_lineal' AIRFLOW_CTX_TASK_ID='gradio_interface' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T05:53:24.415827+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T05:53:24.415827+00:00'
+[2024-12-07T02:54:59.781-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T02:54:59.781-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T02:54:59.781-0300] {logging_mixin.py:190} INFO - Current task name:gradio_interface state:running start_date:2024-12-07 05:54:55.129418+00:00
+[2024-12-07T02:54:59.781-0300] {logging_mixin.py:190} INFO - Dag name:hiring_lineal and current dag run status:running
+[2024-12-07T02:54:59.782-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T02:54:59.972-0300] {logging_mixin.py:190} INFO - Running on local URL:  http://127.0.0.1:7860
+[2024-12-07T02:55:00.007-0300] {_client.py:1025} INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+[2024-12-07T02:55:00.026-0300] {_client.py:1025} INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+[2024-12-07T02:55:00.434-0300] {_client.py:1025} INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+[2024-12-07T02:55:01.037-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+[2024-12-07T02:55:02.072-0300] {_client.py:1025} INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+[2024-12-07T02:55:03.142-0300] {logging_mixin.py:190} INFO - Running on public URL: https://df863fe73c9194f635.gradio.live
+[2024-12-07T02:55:03.143-0300] {logging_mixin.py:190} INFO - 
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+[2024-12-07T02:57:30.117-0300] {logging_mixin.py:190} INFO - La prediccion es: [0]
+[2024-12-07T03:18:58.060-0300] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-07T03:18:58.060-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-07T03:18:58.069-0300] {process_utils.py:132} INFO - Sending 15 to group 41385. PIDs of all processes in the group: [41402, 41385]
+[2024-12-07T03:18:58.069-0300] {process_utils.py:87} INFO - Sending the signal 15 to group 41385
+[2024-12-07T03:18:58.069-0300] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-07T03:18:58.128-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T03:18:58.162-0300] {process_utils.py:80} INFO - Process psutil.Process(pid=41402, status='terminated', started='02:55:01') (41402) terminated with exit code None
+[2024-12-07T03:18:58.162-0300] {process_utils.py:80} INFO - Process psutil.Process(pid=41385, status='terminated', exitcode=0, started='02:54:55') (41385) terminated with exit code 0
