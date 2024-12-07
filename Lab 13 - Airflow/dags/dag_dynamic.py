@@ -71,7 +71,7 @@ with DAG(
     download_data_1_task = BashOperator(
         task_id='download_data_1',
         bash_command=(
-            "curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_{{ ds }}/raw/data_1.csv "
+            "curl -o /root/airflow/output_{{ ds }}/raw/data_1.csv "
             "https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv"
         ),
     )
@@ -80,9 +80,9 @@ with DAG(
     download_data_1_and_2_task = BashOperator(
         task_id='download_data_1_and_2',
         bash_command=(
-             "curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_{{ ds }}/raw/data_1.csv "
+             "curl -o /root/airflow/output_{{ ds }}/raw/data_1.csv "
         "https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv && "
-        "curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_{{ ds }}/raw/data_2.csv "
+        "curl -o /root/airflow/output_{{ ds }}/raw/data_2.csv "
         "https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_2.csv"
     ),
 )

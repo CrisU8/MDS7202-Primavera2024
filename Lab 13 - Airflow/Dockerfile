@@ -11,6 +11,8 @@ RUN pip install apache-airflow
 RUN pip install scikit-learn
 RUN pip install pandas
 RUN pip install numpy
+RUN pip install gradio
+RUN apt-get update && apt-get install -y curl
 
 # Inicializa la base de datos de Airflow
 RUN airflow db init

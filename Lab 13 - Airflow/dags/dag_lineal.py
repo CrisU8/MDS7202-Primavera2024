@@ -40,7 +40,7 @@ with DAG(
     download_data_task = BashOperator(
         task_id='download_dataset',
         bash_command=(
-            "curl -o /home/crisu/Universidad/MDS7202-Primavera2024/Lab\\ 13\\ -\\ Airflow/output_{{ ds }}/raw/data_1.csv "
+            "curl -o /root/airflow/output_{{ ds }}/raw/data_1.csv "
             "https://gitlab.com/eduardomoyab/laboratorio-13/-/raw/main/files/data_1.csv"
         ),
     )
