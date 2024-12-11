@@ -1,6 +1,11 @@
+![](https://www.dii.uchile.cl/wp-content/uploads/2021/06/Magi%CC%81ster-en-Ciencia-de-Datos.png)
+
 <h1 align="center">MDS7202 - Primavera2024</h1>
 
 Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Laboratorio de Programación Científica para Ciencia de Datos`.
+
+# [Proyecto](./BankRiskPredictor_competition)
+Descripcion del proyecto ---
 
 # Laboratorios
 
@@ -105,3 +110,6 @@ Repositorio para la asignatura del magíster en Ciencia de Datos, `MDS7202: Labo
     <img src="./Lab%2013%20-%20Airflow/dag_noviembre.png" alt="dag_dynamic">
 
 </div>
+
+
+![](https://www.dii.uchile.cl/wp-content/uploads/2021/06/Magi%CC%81ster-en-Ciencia-de-Datos.png)
