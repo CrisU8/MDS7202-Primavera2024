@@ -1,0 +1,24 @@
+# Utiliza Python Slim como base
+FROM python:3.9-slim
+
+# Configura el directorio de trabajo
+WORKDIR /app
+
+# Copia los archivos del backend al contenedor
+COPY backend/ /app/backend/
+
+# Copia los modelos al contenedor
+COPY preprocessor.pkl /app/
+COPY rf_updated.pkl /app/
+
+# Instala las dependencias
+RUN pip install --no-cache-dir -r backend/requirements.txt
+
+# Expone el puerto 8000 para FastAPI
+EXPOSE 8000
+
+# Comando para ejecutar la app de FastAPI
+CMD ["uvicorn", "backend.app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+
+
