@@ -4,9 +4,14 @@ import pandas as pd
 import joblib
 from typing import Optional, Dict, Any
 import numpy as np
+import uvicorn
 
 from sklearn.cluster import KMeans
 from sklearn.base import BaseEstimator, TransformerMixin
+
+# Crear la app FastAPI
+app = FastAPI()
+
 # Custom Transformer para procesar timestamps y crear 'wallet_age_hours'
 class WalletAgeTransformer(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
@@ -33,15 +38,21 @@ class ClusterAdder(BaseEstimator, TransformerMixin):
         clusters = self.kmeans.predict(X)
         return np.hstack((X, clusters.reshape(-1, 1)))
 
-# Crear la app FastAPI
-app = FastAPI()
+
+
+# Registrar las clases personalizadas para joblib
+joblib_custom_objects = {
+    "WalletAgeTransformer": WalletAgeTransformer,
+    "ClusterAdder": ClusterAdder
+}
 
 # Cargar el modelo y el preprocesador
 try:
-    preprocessor = joblib.load("../preprocessor.pkl")
-    model = joblib.load("../rf_updated.pkl")
+    preprocessor = joblib.load("preprocessor.pkl")  # Se cargará correctamente porque las clases están definidas
+    model = joblib.load("rf_updated.pkl")  # Se cargará correctamente porque las clases están definidas
 except Exception as e:
     raise RuntimeError(f"Error al cargar modelo o preprocesador: {str(e)}")
+
 
 class PredictionInput(BaseModel):
     last_tx_timestamp: int  # Los timestamps se envían como strings en formato ISO 8601
@@ -116,5 +127,5 @@ async def predict_manual(input_data: PredictionInput):
 
 
 if __name__ == "__main__":
-    import uvicorn
+
     uvicorn.run(app, host="0.0.0.0", port=8000)

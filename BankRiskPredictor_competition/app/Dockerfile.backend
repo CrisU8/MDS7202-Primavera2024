@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copia los archivos del backend al contenedor
-COPY backend/ /app/backend/
+COPY backend/ /app/backend
 
 # Copia los modelos al contenedor
 COPY preprocessor.pkl /app/

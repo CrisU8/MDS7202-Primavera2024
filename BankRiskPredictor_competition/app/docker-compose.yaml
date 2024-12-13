@@ -9,7 +9,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./app/backend:/app
+      - ./backend:/app/backend
     environment:
       - BACKEND_URL=http://backend:8000
 
@@ -21,6 +21,7 @@ services:
     ports:
       - "7860:7860"
     volumes:
-      - ./app/frontend:/app
+      - ./frontend:/app/frontend
     environment:
       - BACKEND_URL=http://backend:8000
+

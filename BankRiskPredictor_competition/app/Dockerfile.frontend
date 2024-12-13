@@ -4,8 +4,8 @@ FROM python:3.9-slim
 # Configura el directorio de trabajo
 WORKDIR /app
 
-# Copia el resto de los archivos al contenedor
-COPY frontend/ /app/
+# Copia los archivos del backend al contenedor
+COPY frontend/ /app/frontend
 
 # Instala las dependencias
 RUN pip install --no-cache-dir -r frontend/requirements.txt
@@ -14,6 +14,6 @@ RUN pip install --no-cache-dir -r frontend/requirements.txt
 EXPOSE 7860
 
 # Comando para ejecutar la app de Gradio
-CMD ["python", "./frontend.py"]
+CMD ["python", "frontend/frontend.py"]
 
 
